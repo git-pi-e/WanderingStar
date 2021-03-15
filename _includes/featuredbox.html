@@ -1,5 +1,4 @@
 <!-- begin post -->
-{% assign author = site.authors[post.author] %}
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100">
         <div class="row h-100">
@@ -9,7 +8,8 @@
                         <a href="{{ site.baseurl }}{{ post.url }}">
                             <img class="featured-box-img-cover lazyimg"
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
-                                data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}">
+                                data-src="{% if post.image contains " ://" %}{{ post.image }}{% else %}{{ site.baseurl
+                                }}/{{ post.image }}{% endif %}">
                         </a>
                     </div>
                 </div>
@@ -22,35 +22,11 @@
                                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                             </h2>
 
-                            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
+                            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:50 }}</h4>
                         </div>
                         <div class="card-footer b-0 bg-white mt-auto">
                             <div class="wrapfooter">
-                                {% if post.author %}
-                                <span class="meta-footer-thumb">
-                                    {% if author.avatar %}
-                                    <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}"
-                                        alt="{{ author.display_name }}">
-                                    {% else %}
-                                    <img class="author-thumb"
-                                        src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x"
-                                        alt="{{ author.display_name }}">
-                                    {% endif %}
-                                </span>
-                                <span class="author-meta">
-                                    <span class="post-name"><a target="_blank"
-                                            href="{{ author.web }}">{{ author.display_name }}</a></span><br />
-                                    {% endif %}
-                                    <span class="post-date">{{ post.date | date_to_string }}</span>
-                                </span>
-                                <span class="post-read-more">
-                                    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" title="Read Story">
-                                        <svg class="svgIcon-use" id="i-external" xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="black"
-                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
-                                            <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
-                                        </svg>
-                                    </a>
+                                <span class="post-date">{{ post.date | date_to_string }}</span>
                                 </span>
                                 <div class="clearfix"></div>
                             </div>
