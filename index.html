@@ -13,15 +13,18 @@ title: Home
     </div>
     <div class="row">
 
-    {% for post in site.posts %}
+        {% assign timeframe = 604800 %}
 
-        {% if post.featured == true %}
+        {% for post in site.posts %}
+        {% assign post_in_seconds = post.date | date: "%s" | plus: timeframe %}
+        {% assign recent_posts = "now" | date: "%s" | minus: 0 %}
 
-            {% include featuredbox.html %}
+        {% if post_in_seconds > recent_posts %}
+
+        {% include featuredbox.html %}
 
         {% endif %}
-
-    {% endfor %}
+        {% endfor %}
 
     </div>
 </section>
@@ -53,9 +56,8 @@ title: Home
 <!-- Pagination
 ================================================== -->
 <div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
+    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+    <span class="navigation" role="navigation">
+        {% include pagination.html %}
+    </span>
 </div>
-
