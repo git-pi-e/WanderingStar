@@ -11,15 +11,10 @@ permalink: /:title/
 # Authors
 authors:
   plutonium:
-    name: Manav Seksaria
-    display_name: Manav Seksaria
+    name: plutoniumm
+    display_name: plutoniumm
     email: meh@notneeded.com
     description: "I got nothin bruh"
-  john:
-    name: John
-    display_name: John    
-    email: wowthemesnet@gmail.com
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Frontier demo, a Jekyll template compatible with Github pages."
 
 # Plugins
 plugins:
