@@ -1,16 +1,26 @@
 ---
-title: "All Tags"
+title: "Tags"
 layout: default
-permalink: "/tagAll.html"
+permalink: "/tags.html"
 ---
 
+<h2>Every Tag Ever</h2>
 <div class="after-post-tags">
     <ul class="tags">
         {% for tag in site.tags %}
         <li>
-            <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " "," -" }}">#{{ tag
+            <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag[0] | replace: " "," -" }}">#{{ tag[0]
                 }}</a>
         </li>
+        {% assign pages_list = tag[1] %}
+        {% for post in pages_list %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
         {% endfor %}
     </ul>
 </div>
