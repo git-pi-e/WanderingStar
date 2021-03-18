@@ -1,0 +1,16 @@
+---
+title: "All Tags"
+layout: default
+permalink: "/tagAll.html"
+---
+
+<div class="after-post-tags">
+    <ul class="tags">
+        {% for tag in site.tags %}
+        <li>
+            <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " "," -" }}">#{{ tag
+                }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
