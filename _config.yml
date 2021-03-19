@@ -24,6 +24,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
     
+collections:
+  snippets:
+    output: true
+    permalink: /snippets/:path/
+
 # Archives
 jekyll-archives:
   enabled:

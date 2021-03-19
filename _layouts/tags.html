@@ -4,6 +4,27 @@ layout: default
 permalink: "/tags.html"
 ---
 
+<h2>Every Tag Ever</h2>
+<div class="after-post-tags">
+    <ul class="tags">
+        {% for tag in site.tags %}
+        <li>
+            <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag[0] | replace: " "," -" }}">#{{ tag[0]
+                }}</a>
+        </li>
+        {% assign pages_list = tag[1] %}
+        {% for post in pages_list %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+        {% endfor %}
+    </ul>
+</div>
+
 <div class="row listrecent">
     {% for tag in site.tags %}
     <div class="section-title col-md-12 mt-4">
