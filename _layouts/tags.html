@@ -8,7 +8,7 @@ permalink: "/tags.html"
 <div class="after-post-tags">
     <ul class="tags">
         {% for tag in site.tags %}
-        <li>
+        <li style="margin: 2px">
             <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag[0] | replace: " "," -" }}">#{{ tag[0]
                 }}</a>
         </li>

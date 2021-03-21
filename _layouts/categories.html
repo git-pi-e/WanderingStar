@@ -8,8 +8,9 @@ permalink: "/categories.html"
 <div class="after-post-tags">
     <ul class="tags">
         {% for category in site.categories %}
-        <li>
-            <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ category[0] | replace: " "," -" }}">#{{ category[0]
+        <li style="margin: 2px">
+            <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category[0] | replace: " "," -" }}">{{
+                category[0]
                 }}</a>
         </li>
         {% assign pages_list = category[1] %}
