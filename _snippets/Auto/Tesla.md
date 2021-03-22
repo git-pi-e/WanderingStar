@@ -1,11 +1,14 @@
 ---
 layout: post
 title:  "Tesla"
+date: "2020-12-19"
 author: plutoniumm
-categories: [ Cars, ML ]
+categories: [ Cars, ML, Sustainability ]
 tags: []
 image: https://i.imgur.com/RUEIwrW.jpg
 ---
+
+*Cover Tesla Cybertruck*
 
 ## Energy Storage
 We have only 2 ways of storing. Water Pumped to height and Batteries like in Australia (Hornsdale). All else is JIT.
