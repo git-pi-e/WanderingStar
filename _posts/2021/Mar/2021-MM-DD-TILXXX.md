@@ -2,7 +2,7 @@
 layout: post
 title:  "Coming Soon, Like really soon"
 author: plutoniumm
-categories: [ Biology, Forensics, Communications ]
+categories: []
 tags: []
 image: https://i.imgur.com/90KJjsJ.jpg
 ---
