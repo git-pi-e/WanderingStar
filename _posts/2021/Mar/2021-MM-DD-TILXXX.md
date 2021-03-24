@@ -1,5 +1,6 @@
 ---
 layout: post
+usemathjax: true
 title:  "Coming Soon, Like really soon"
 author: plutoniumm
 categories: []
