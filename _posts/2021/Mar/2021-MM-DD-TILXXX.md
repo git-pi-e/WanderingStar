@@ -18,7 +18,4 @@ image: https://i.imgur.com/90KJjsJ.jpg
 ## QuickBits
 
 
-## Quotes
-
-
 ## Analysis
