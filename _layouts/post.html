@@ -12,7 +12,6 @@ post_class: post-template
 <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 {% endif %}
 
-
 <!-- Begin Article
 ================================================== -->
 
@@ -22,7 +21,7 @@ post_class: post-template
     data-src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif
     %}" alt="{{ page.title }}" style="max-height:200px;width:100%;object-fit:cover">
 {% endif %}
-<div class="container">
+<div class="container" id="main">
     <div class="row">
         <div class="col-md-2">
             &nbsp;

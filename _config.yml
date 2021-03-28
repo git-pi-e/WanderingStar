@@ -2,11 +2,12 @@
 name: "Frontier"
 title: "Frontier"
 description: "TIL"
-logo: 'logo.png'
+logo: 'assets/images/logoWide.png'
 favicon: 'favicon.png'
-baseurl: 
+baseurl:
 include: ["_pages"]
 permalink: /:title/
+hash: 178e55b431b086fbefee76e48ea87d4682da779fbd505b33c06f5f78092e4e24cab1db78a705c07afdbf6a7f8735b45d28ff31089d1cfd641e6f30a583d733e3
 
 # Authors
 authors:
@@ -23,7 +24,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 collections:
   snippets:
     output: true
@@ -36,11 +37,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 8
 paginate_path: /page-:num/
-    
+
 # Other
 markdown: kramdown
 
