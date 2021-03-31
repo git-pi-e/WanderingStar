@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Gender Identity"
-author: plutoniumm
 date: "2021-03-22"
 image: https://i.imgur.com/hXRJB4S.jpg
 ---
@@ -13,7 +12,7 @@ image: https://i.imgur.com/hXRJB4S.jpg
 
 **Therapy**: The USA/Canada law says that if a Adolescent goes to a therapist claiming any trans-gender disphoria or so much as an inclination. The therapist is required to affirm that and start treatment [[*CITATION NEEDED*]()]. This is not how medicine works.
 
-**Waiting Before treatment**: The science says (look around Ken Zucker) that just waiting for some time will lead 70-80% of the people to conclude that they are simply gay [[*CITATION NEEDED*]()]. 
+**Waiting Before treatment**: The science says (look around Ken Zucker) that just waiting for some time will lead 70-80% of the people to conclude that they are simply gay [[*CITATION NEEDED*]()].
 
 **Stats**: The gender disphoria in america was 2% students. That is an increase from 0.01% by 200x times. [[*CITATION NEEDED*]()]
 
@@ -23,7 +22,7 @@ Evidence to back up the critiques is that women tend to engage in this kind of b
 
 Kids who are upper middle class and privilaged are the vast majority of the demographic. They have no reason to be victimsed and hence create one, they become oppressed/a minority [*Lisa Littman Study*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202330).
 
-**Anti Social Males**: Men show this simular behaviour such as anti social young males cannot be grouped. They will make each other worse and also that social and anti social boys grouped together will not make the anti better, but the social worse[[*Cambridge-Somerville Youth Experiment*](https://link.springer.com/referenceworkentry/10.1007%2F978-1-4614-5690-2_48)]. But encouraging each other to do self harm is endemically a female tendency [[*CITATION NEEDED*]()]. 
+**Anti Social Males**: Men show this simular behaviour such as anti social young males cannot be grouped. They will make each other worse and also that social and anti social boys grouped together will not make the anti better, but the social worse[[*Cambridge-Somerville Youth Experiment*](https://link.springer.com/referenceworkentry/10.1007%2F978-1-4614-5690-2_48)]. But encouraging each other to do self harm is endemically a female tendency [[*CITATION NEEDED*]()].
 
 Why also do we see that only in teenage females. And not females of all ages.
 
