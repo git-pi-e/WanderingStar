@@ -1,40 +1,48 @@
 <!-- begin post -->
 <div class="col-md-6 mb-30px">
-    <div class="listfeaturedtag h-100">
-        <div class="row h-100">
-            <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
-                <div class="h-100">
-                    <div class="wrapthumbnail">
-                        <a href="{{ site.baseurl }}{{ post.url }}">
-                            <img class="featured-box-img-cover lazyimg"
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
-                                data-src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl
-                                }}/{{ post.image }}{% endif %}">
-                        </a>
-                    </div>
+    <div class="listfeaturedtag h-100" style="border-radius:0.5em;overflow:hidden;">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            <div style="position: relative;">
+                <div class="wrapthumbnail">
+                    <a href="{{ site.baseurl }}{{ post.url }}" style="height: 250px;">
+                        <img class="featured-box-img-cover lazyimg"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
+                            data-src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl
+                                }}/{{ post.image }}{% endif %}" style="height: 250px;width: 100%;object-fit: cover;">
+                    </a>
+                </div>
+                <div class="apple-card">
+                    <h5 class="apple-desc">{{ post.excerpt | strip_html | truncatewords:50 }}</h5>
+                    <h3 class="apple-title">{{ post.title }}</h3>
+                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                    </span>
                 </div>
             </div>
-            <div class="col-12 col-md-12 col-lg-7">
-                <div class="h-100 card-group">
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="card-title">
-                                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                            </h2>
-
-                            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:50 }}</h4>
-                        </div>
-                        <div class="card-footer b-0 bg-white mt-auto">
-                            <div class="wrapfooter">
-                                <span class="post-date">{{ post.date | date_to_string }}</span>
-                                </span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </a>
     </div>
+    <style>
+        .post-date {
+            font-size: 0.75em;
+            font-weight: 700 !important;
+            color: #888;
+        }
+
+        .apple-card {
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            padding: 10px;
+            left: 0;
+            z-index: 1;
+            width: 100%;
+            background: linear-gradient(to bottom, #0000, #000);
+        }
+
+        .apple-desc,
+        .post-date {
+            font-size: 0.75em;
+            color: #fff !important;
+        }
+    </style>
 </div>
 <!-- end post -->
