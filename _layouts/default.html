@@ -13,22 +13,21 @@
 
     <link href="{{ site.baseurl }}/assets/css/bootstrap.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/global.css" rel="stylesheet">
 
 </head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
-<body class="{{layout}}">
+<body class="{{layout}}" xmlns="http://www.w3.org/2000/svg">
     <!-- Begin Menu Navigation
 ================================================== -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top mediumnavigation nav-down" style="backdrop-filter: blur(32px);-webkit-backdrop-filter: blur(32px);
-        -moz-backdrop-filter: blur(32px);background:#fffa">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mediumnavigation nav-down blur-32"
+        style="background:#fffa">
         <div class="container pr-0">
-            <!-- Begin Logo -->
             <a class="navbar-brand" href="{{ site.baseurl }}/">
                 <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
             </a>
-            <!-- End Logo -->
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

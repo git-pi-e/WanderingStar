@@ -19,12 +19,48 @@ post_class: post-template
 <img class="featured-image img-fluid lazyimg"
     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
     data-src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif
-    %}" alt="{{ page.title }}" style="max-height:200px;width:100%;object-fit:cover">
+    %}" alt="{{ page.title }}">
 {% endif %}
 <div class="container" id="main">
+    <style>
+        .article-post img {
+            border-radius: 10px;
+        }
+
+        .img-fluid {
+            max-height: 200px;
+            width: 100%;
+            object-fit: cover
+        }
+
+        .sharesheet {
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <script>
+        function windowLink() {
+            let dummy = document.createElement( 'input' ),
+                text = window.location.href;
+            dummy.style.opacity = 0;
+            document.body.appendChild( dummy );
+            dummy.value = text;
+            dummy.select();
+            document.execCommand( 'copy' );
+            document.body.removeChild( dummy );
+        }
+    </script>
     <div class="row">
         <div class="col-md-2">
-            &nbsp;
+            <button class="flex-col sharesheet" onclick="windowLink()">
+                <svg viewBox="0 0 32 32" width="32" height="32">
+                    <path
+                        d="M18 8 C18 8 24 2 27 5 30 8 29 12 24 16 19 20 16 21 14 17 M14 24 C14 24 8 30 5 27 2 24 3 20 8 16 13 12 16 11 18 15" />
+                </svg>
+                <span>
+                    Copy Link
+                </span>
+            </button>
         </div>
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">

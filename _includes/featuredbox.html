@@ -4,11 +4,11 @@
         <a href="{{ site.baseurl }}{{ post.url }}">
             <div style="position: relative;">
                 <div class="wrapthumbnail">
-                    <a href="{{ site.baseurl }}{{ post.url }}" style="height: 250px;">
+                    <a href="{{ site.baseurl }}{{ post.url }}" style="height: 300px;">
                         <img class="featured-box-img-cover lazyimg"
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
                             data-src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl
-                                }}/{{ post.image }}{% endif %}" style="height: 250px;width: 100%;object-fit: cover;">
+                                }}/{{ post.image }}{% endif %}" style="height: 300px;width: 100%;object-fit: cover;">
                     </a>
                 </div>
                 <div class="apple-card">
@@ -22,7 +22,6 @@
     </div>
     <style>
         .post-date {
-            font-size: 0.75em;
             font-weight: 700 !important;
             color: #888;
         }
@@ -40,7 +39,7 @@
 
         .apple-desc,
         .post-date {
-            font-size: 0.75em;
+            font-size: 0.8em;
             color: #fff !important;
         }
     </style>
