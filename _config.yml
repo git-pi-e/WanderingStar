@@ -7,7 +7,7 @@ favicon: 'favicon.png'
 baseurl:
 include: ["_pages"]
 permalink: /:title/
-hash: 178e55b431b086fbefee76e48ea87d4682da779fbd505b33c06f5f78092e4e24cab1db78a705c07afdbf6a7f8735b45d28ff31089d1cfd641e6f30a583d733e3
+hash: ea4a77a3bf419cfad2dbf6c728b3f34409dff04335379934cd320b7f16f6e0c29a4f7fa109c7d9a7d84e9037ff98fb9f6914be4fd39dfc0a7a70501370a77227
 
 # Authors
 authors:

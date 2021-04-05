@@ -4,17 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
     <title>{{ page.title }} | {{site.name}}</title>
 
+    <link rel="preconnect" href="https://i.imgur.com">
+    <meta name="robots" content="noindex nofollow">
     {% seo %}
-
     <link href="{{ site.baseurl }}/assets/css/bootstrap.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/global.css" rel="stylesheet">
-
 </head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
@@ -50,6 +49,32 @@
 
                     <li class="nav-item">
                         <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                    </li>
+
+                    <li>
+                        <style>
+                            form input[type="text"] {
+                                border: 0;
+                                outline: none;
+                                background: transparent;
+                                position: relative;
+                                padding: 10px;
+                                opacity: 0;
+                                width: 1px;
+                                border-radius: 2em;
+                                background: #eee;
+                                transition: all 0.2s ease;
+                            }
+
+                            nav:hover form input[type="text"] {
+                                opacity: 1;
+                                width: 150px;
+                            }
+                        </style>
+                        <form action="/search" method="get">
+                            <input type="text" placeholder="Search..." id="search_box" name="query">
+                            <input type="submit" value="" style="visibility:hidden;width: 1px">
+                        </form>
                     </li>
                 </ul>
 
