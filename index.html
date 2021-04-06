@@ -3,33 +3,6 @@ layout: default
 title: Home
 ---
 {% if page.url == "/" %}
-<script>
-    function sha512( str ) {
-        return crypto.subtle.digest( "SHA-512", new TextEncoder( "utf-8" ).encode( str ) ).then( buf => {
-            return Array.prototype.map.call( new Uint8Array( buf ), x => ( ( '00' + x.toString( 16 ) ).slice( -2 ) ) ).join( '' );
-        } );
-    }
-    const windowURL = window.location.href.split( '#' )[ 1 ];
-    const hash = "{{site.hash}}";
-
-    sha512( windowURL ).then( x => {
-        if ( x !== hash ) document.write( `
-<div class="na">Not Authorized for Access!</div>
-<style>
-body {padding: 0;margin: 0;background: #ccc;}
-.na {
-    width: 90%;height: 90%;
-    margin:0 auto;border-radius:32px;
-    text-align: center;display: flex;
-    margin-top:5vh;
-    justify-content: center;align-items: center;
-    color: #f44;background:#fff;
-    font: lighter 64px Helvetica;
-}
-</style>` )
-    } );
-</script>
-
 <style>
     body {
         background: #f5f5f7;

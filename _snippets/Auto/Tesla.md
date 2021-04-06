@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tesla"
-date: "2020-12-19"
+date: "2021-03-19"
 author: plutoniumm
 categories: [ Cars, ML, Sustainability ]
 tags: []
@@ -21,7 +21,7 @@ LiIon batteries are low density and also creates a solid electrolyte interface r
 
 
 ## Energy Density
-Kerosene is 43 MJ/kg. LiIon is 1. Consider an extreme example. A sesna needs 500kg batteries or about 2/3 its weight. For A320 it is 260KKg which is 5 times the weight of the empty plane. 
+Kerosene is 43 MJ/kg. LiIon is 1. Consider an extreme example. A sesna needs 500kg batteries or about 2/3 its weight. For A320 it is 260KKg which is 5 times the weight of the empty plane.
 
 Hydrogen is getting better with PEMs instead of water. Where H<sup>+</sup> is used to carry charge and not OH-. Low electricity density is why tesla did not declare empty truck weight. To combat part of this the cars are designed with very low drag. The trucks drag is less than bugatti divos.
 
@@ -36,9 +36,9 @@ US average for crashes is 2.1/milMiles. Tesla Autopilot is 0.3/milMiles
 
 
 ## Transfer Efficiency
-Tesla makes more batteries than the world makes electricity. .1TWh vs .006TWh. 
+Tesla makes more batteries than the world makes electricity. .1TWh vs .006TWh.
 
-While you can make bigger batteries with bigger bulk capacities, Like 2>1+1 the problem is they dont charge fast enough. So the sweet spot is currently 4680 (From 1865) So they get a 5x Energy, 6x Power & 15% range &uarr; for multiple batteries of the same weight. 
+While you can make bigger batteries with bigger bulk capacities, Like 2>1+1 the problem is they dont charge fast enough. So the sweet spot is currently 4680 (From 1865) So they get a 5x Energy, 6x Power & 15% range &uarr; for multiple batteries of the same weight.
 
 
 ## Maintainace
