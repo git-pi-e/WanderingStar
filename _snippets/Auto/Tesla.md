@@ -2,9 +2,7 @@
 layout: post
 title:  "Tesla"
 date: "2021-03-19"
-author: plutoniumm
-categories: [ Cars, ML, Sustainability ]
-tags: []
+toc: true
 image: https://i.imgur.com/RUEIwrW.jpg
 ---
 

@@ -12,16 +12,13 @@ post_class: post-template
 </script>
 {% endif %}
 
-<!-- Begin Article
-================================================== -->
-
 <div class="mainheading">
     <h1 class="posttitle" style="width: 100%;text-align: center;">{{ page.title }}</h1>
 </div>
 
 {% if page.image %}
 <img class="featured-image img-fluid lazyimg"
-    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mPs+A8AAhUBiUo2eoUAAAAASUVORK5CYII="
     data-src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif
     %}" alt="{{ page.title }}">
 {% endif %}
@@ -67,9 +64,7 @@ post_class: post-template
             </button>
         </div>
         <div class="col-md-9 flex-first flex-md-unordered">
-            <!-- Post Content -->
             <div class="article-post">
-                <!-- Toc if any -->
                 {% if page.toc %}
                 {% if page.beforetoc %}
                 <p><em>{{page.beforetoc}}</em></p>
@@ -79,16 +74,13 @@ post_class: post-template
                     {% include toc.html html=content %}
                 </div>
                 {% endif %}
-                <!-- End Toc -->
                 {{content}}
             </div>
 
-            <!-- Post Date -->
             <p>
                 <small>
                     <span class="post-date"><time class="post-date" datetime="{{ page.date | date:" %Y-%m-%d" }}">{{
                             page.date | date_to_string }}</time></span>
-
                     {% if page.last_modified_at %}
                     (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}"
                         itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
@@ -96,7 +88,6 @@ post_class: post-template
                 </small>
             </p>
 
-            <!-- Post Categories -->
             <div class="after-post-cats">
                 <ul class="tags mb-4">
                     {% assign sortedCategories = page.categories | sort %}
@@ -108,22 +99,6 @@ post_class: post-template
                     {% endfor %}
                 </ul>
             </div>
-            <!-- End Categories -->
-
-            <!-- Post Tags -->
-            <div class="after-post-tags">
-                <ul class="tags">
-                    {% assign sortedTags = page.tags | sort %}
-                    {% for tag in sortedTags %}
-                    <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " "," -" }}">#{{ tag
-                            }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
         </div>
     </div>
 </div>
-<!-- End Article
-================================================== -->

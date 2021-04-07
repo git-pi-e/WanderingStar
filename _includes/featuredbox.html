@@ -1,31 +1,23 @@
-<!-- begin post -->
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100" style="border-radius:0.5em;overflow:hidden;">
         <a href="{{ site.baseurl }}{{ post.url }}">
             <div style="position: relative;">
                 <div class="wrapthumbnail">
                     <a href="{{ site.baseurl }}{{ post.url }}" style="height: 300px;">
-                        <img class="featured-box-img-cover lazyimg"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
-                            data-src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl
-                                }}/{{ post.image }}{% endif %}" style="height: 300px;width: 100%;object-fit: cover;">
+                        <img class="featured-box-img-cover w-100" src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl
+                                }}/{{ post.image }}{% endif %}" style="height: 300px;object-fit: cover;">
                     </a>
                 </div>
-                <div class="apple-card">
+                <div class="apple-card w-100">
                     <h5 class="apple-desc">{{ post.excerpt | strip_html | truncatewords:50 }}</h5>
                     <h3 class="apple-title">{{ post.title }}</h3>
-                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                    <span class="post-date font-weight-bold">{{ post.date | date_to_string }}</span>
                     </span>
                 </div>
             </div>
         </a>
     </div>
     <style>
-        .post-date {
-            font-weight: 700 !important;
-            color: #888;
-        }
-
         .apple-card {
             color: #fff;
             position: absolute;
@@ -33,7 +25,6 @@
             padding: 10px;
             left: 0;
             z-index: 1;
-            width: 100%;
             background: linear-gradient(to bottom, #0000, #000);
         }
 
@@ -44,4 +35,3 @@
         }
     </style>
 </div>
-<!-- end post -->

@@ -8,6 +8,11 @@
 
     <title>{{ page.title }} | {{site.name}}</title>
 
+    {% unless page.url contains "snippets" %}
+    <script>const hash = "{{site.hash}}";</script>
+    <script src="{{ site.baseurl }}/assets/js/lock.js"></script>
+    {% endunless %}
+
     <link rel="preconnect" href="https://i.imgur.com">
     <meta name="robots" content="noindex nofollow">
     {% seo %}
@@ -20,92 +25,16 @@
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
 <body class="{{layout}}" xmlns="http://www.w3.org/2000/svg">
-
-    {% unless page.url contains "snippets" %}
-    <script>
-        const hash = "{{site.hash}}";
-        const denial = `
-            <span class="na">Not Authorized for Access!</span><br/>
-            <input size=10 id="token" type="text" class="na2" placeholder="Password" autofocus/>
-            <button id="go">&rarr;</button>
-            <style>
-                body {
-                    width:100%;
-                    text-align:center;
-                    height: 60vh;
-                    padding-top:25vh;
-                }
-                .na {color: #f44;font: lighter 64px Helvetica;}
-                input, button {
-                    background: transparent;
-                    color: #000;font: lighter 64px Helvetica;
-                    outline: none;border: 0;padding:0;margin:0;
-                }
-            </style>`;
-        const sha512 = ( str ) => crypto.subtle.digest( "SHA-512", new TextEncoder( "utf-8" ).encode( str ) ).then( buf =>
-            Array.prototype.map.call( new Uint8Array( buf ), x => ( ( '00' + x.toString( 16 ) ).slice( -2 ) ) ).join( '' ) );
-        let token = new URL( window.location ).searchParams.get( 'fr-token' );
-        const checker = async () => {
-            const plainTok = await sha512( token );
-            let b64Tok;
-            try { b64Tok = await sha512( atob( token ) || 0 ); }
-            catch ( e ) { b64Tok = 0; }
-            const answers = await Promise.all( [ plainTok, b64Tok ] );
-            if ( plainTok === hash ) {
-                let url = new URL( window.location );
-                url.searchParams.set( 'fr-token', btoa( token ) );
-                token = btoa( token );
-                window.history.pushState( {}, '', url );
-            }
-            if ( answers.includes( hash ) ) return 238
-            return 400;
-        }
-
-        checker().then( r => {
-            if ( r === 238 ) {
-                setTimeout( () => {
-                    document.querySelectorAll( 'a' ).forEach( a => {
-                        let url = new URL( a.href );
-                        url.searchParams.set( 'fr-token', token );
-                        a.href = url;
-                    } )
-                    let url = new URL( document.querySelector( 'form' ).action );
-                    url.searchParams.set( 'fr-token', token );
-                    document.querySelector( 'form' ).action = url;
-                }, 0.5e3 )
-            }
-            else {
-                const checker = `setTimeout(()=>
-                    document.querySelector( '#go' ).addEventListener( 'click', ( e ) => {
-                        let url = new URL( window.location );
-                        url.searchParams.set( 'fr-token', document.querySelector( '#token' ).value );
-                        window.location.href = url;
-                        return 0;
-                    } )
-                , 0.5e3)`
-                let scrip = document.createElement( 'script' );
-                scrip.textContent = checker;
-                document.head.innerHTML = '';
-                document.head.appendChild( scrip );
-                document.body.innerHTML = denial;
-            }
-        } );
-    </script>
-    {% endunless %}
-
     <!-- Begin Menu Navigation
 ================================================== -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mediumnavigation nav-down blur-32"
         style="background:#fffa">
         <div class="container pr-0">
             <a class="navbar-brand" href="{{ site.baseurl }}/">Frontier</a>
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
                     class="navbar-toggler-icon"></span></button>
-
             <div class="collapse navbar-collapse" id="navbarMediumish">
-
                 <ul class="navbar-nav ml-auto">
                     {% if page.url == "/" %}
                     <li class="nav-item active">
@@ -130,9 +59,7 @@
 
     <div class="site-content">
         <div class="container">
-            <div class="main-content">
-                {{ content }}
-            </div>
+            <div class="main-content">{{ content }}</div>
         </div>
         <div class="jumbotron fortags">
             <div class="d-md-flex h-100">
@@ -157,20 +84,14 @@
         </div>
 
         <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                        Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
-                    </div>
-                    <div class="col-md-6 col-sm-6 text-center text-lg-right">
-                        For the informed user
-                    </div>
-                </div>
+            <div class="row" style="padding:5px 2em;">
+                <div class="col-md-6 col-sm-6 text-center text-lg-left">Copyright © {{ site.time | date: "%Y" }} {{
+                    site.name }}</div>
+                <div class="col-md-6 col-sm-6 text-center text-lg-right">For the informed user</div>
             </div>
         </footer>
     </div>
 </body>
-
 <script src="{{ site.baseurl }}/assets/js/frontier.js"></script>
 
 </html>

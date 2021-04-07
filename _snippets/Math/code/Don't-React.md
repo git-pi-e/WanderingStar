@@ -2,6 +2,8 @@
 layout: post
 title:  "Don't React"
 date: "2021-04-02"
+toc: true
+beforetoc: Cover Don't React
 image: https://dev-to-uploads.s3.amazonaws.com/i/cv7ln3mwwp4mbzhi8yog.png
 ---
 
@@ -57,7 +59,7 @@ React and Vue are libraries they are constrained by file sizes. Svelte is a comp
 
 React is not useful unless youre building facebook. Like literally, Facebook. React was created to deal with very very large systems, and shines there. For smaller systems, it is pure Bloat.
 
-## Fron Chris Hawkes
+## From Chris Hawkes
 
 React is made by facebook. They initially had a problem where they used to sneak in random clauses in the license. This is a very facebook thing to do. They have since fixed this problem and have completely moved to MIT Lic.
 
@@ -67,4 +69,4 @@ They rewrite the engine very frequently. This is problematic for companies and i
 
 Lastly a whole library, brings its own vulnerabilities.
 
-Also. WHY IS REDUX SYNCHRONOUS. WHY. Then you would import redux thunk to solve that problem. 
+Also. WHY IS REDUX SYNCHRONOUS. WHY. Then you would import redux thunk to solve that problem.

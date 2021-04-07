@@ -3,15 +3,14 @@
         <div class="maxthumb">
             <style>
                 .postImg {
-                    width: 100%;
                     height: 200px;
                     object-fit: cover;
                 }
             </style>
             <a href="{{ site.baseurl }}{{ post.url }}" style="padding-top: 75%;">
                 {% if post.image %}
-                <img class="postImg lazyimg" src="assets/images/logoWide.png" data-src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl }}/{{
-                    post.image }}{% endif %}" alt="{{ post.title }}" style="width: 100%;">
+                <img class="postImg w-100" src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ site.baseurl }}/{{
+                    post.image }}{% endif %}" alt="{{ post.title }}">
                 {% endif %}
             </a>
         </div>
