@@ -1,7 +1,7 @@
 # Site
 name: "Frontier"
 title: "Frontier"
-description: "TIL"
+description: "Just a minute, let me write that down"
 logo: 'assets/images/logoWide.png'
 favicon: 'favicon.png'
 baseurl:
@@ -29,6 +29,9 @@ collections:
   snippets:
     output: true
     permalink: /snippets/:path
+  evolution:
+    output: true
+    permalink: /evolution/:path
 
 # Archives
 jekyll-archives:
@@ -44,7 +47,6 @@ paginate_path: /page-:num/
 
 # Other
 markdown: kramdown
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge
