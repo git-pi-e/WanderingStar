@@ -10,3 +10,6 @@ Scientists at the US Department of Energy recently used Ball Milling technique t
 
 ### Eating Plastic
 Ideonella Sakaiensis a bacteria can eat Plastic of type PET (Plastic Bottles are made of PET) when grown on it and convert it into MHET and then breaks it down into its components
+
+### Crypto
+Facebook has renamed Libra to Diem and intends to make it a stable crypto currency. Unlike traditional crypto, stable crypto is tied to physical money like say the US Dollar. Visa has also launched their own crypto.
