@@ -20,7 +20,7 @@ title: Home
     </div>
     <div class="row">
 
-        {% assign timeframe = 172800 %}
+        {% assign timeframe = 86400 | times: 13 %}
 
         {% for post in site.posts %}
         {% assign post_in_seconds = post.date | date: "%s" | plus: timeframe %}

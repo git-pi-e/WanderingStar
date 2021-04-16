@@ -9,9 +9,9 @@
                     </a>
                 </div>
                 <div class="apple-card w-100">
-                    <h5 class="apple-desc">{{ post.excerpt | strip_html | truncatewords:50 }}</h5>
-                    <h3 class="apple-title">{{ post.title }}</h3>
                     <span class="post-date font-weight-bold">{{ post.date | date_to_string }}</span>
+                    <h3 class="apple-title">{{ post.title }}</h3>
+                    <h5 class="apple-desc">{{ post.excerpt | strip_html | truncatewords:50 }}</h5>
                     </span>
                 </div>
             </div>
