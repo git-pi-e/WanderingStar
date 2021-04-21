@@ -11,3 +11,6 @@ Japan's cherryblossom peaks have been more or less consistent since 800s to 1800
 
 ### Global Disease Reawakening
 in 2014, scientists found a giant (such that it could be viewed with pooer microscopes) 30,000 year old virus in Siberian permafrost. The virus, Pithovirus sibericum, was still infectious and began killing amoebas. This raised concerns that melting or drilling arctic ice could unearth previously undiscovered pathogenic viruses. [*Wikipedia*](https://en.wikipedia.org/wiki/Pithovirus)
+
+### Ice and Speed
+Even if marginally, the melting of polar ice caps causes more mass to redestribute itself around the Earth and as a consequence slows down the rotation of the earth by a frac.

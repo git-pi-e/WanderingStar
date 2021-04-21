@@ -4,7 +4,7 @@ gem install bundler
 
 bundle install
 
-bundle exec jekyll serve --watch
+bundle exec jekyll --watch serve --port 4002
 
 ### Contribute
 
@@ -14,4 +14,3 @@ bundle exec jekyll serve --watch
 4. Make necessary changes, commit, push and open a pull request on GitHub.
 
 Thank you!
-
