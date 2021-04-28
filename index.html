@@ -5,7 +5,7 @@ title: Home
 {% if page.url == "/" %}
 <style>
     body {
-        background: #f5f5f7;
+        background: #e5e5e7;
         font-size: 16px;
     }
 
@@ -16,11 +16,11 @@ title: Home
 
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>The Front</span></h2>
+        <h2><span>The Overvable Universe</span></h2>
     </div>
     <div class="row">
 
-        {% assign timeframe = 86400 | times: 13 %}
+        {% assign timeframe = 86400 | times: 1000 %}
 
         {% for post in site.posts %}
         {% assign post_in_seconds = post.date | date: "%s" | plus: timeframe %}
@@ -39,19 +39,14 @@ title: Home
 {% endif %}
 
 <section class="recent-posts">
-
     <div class="section-title">
-
-        <h2><span>All Stories</span></h2>
-
+        <h2><span>The Actual Universe</span></h2>
     </div>
 
     <div class="row listrecent">
 
         {% for post in paginator.posts %}
-
         {% include postbox.html %}
-
         {% endfor %}
 
     </div>

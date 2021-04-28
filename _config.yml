@@ -25,7 +25,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
-collections:
+# collections:
 
 # Archives
 jekyll-archives:
@@ -48,4 +48,4 @@ kramdown:
     block:
       line_numbers: true
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, Helptext.txt, "**/*XX.md"]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

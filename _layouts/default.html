@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://i.imgur.com">
     <meta name="robots" content="noindex nofollow">
     {% seo %}
-    <link href="{{ site.baseurl }}/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/bootstrap-moded.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/assets/css/global.css" rel="stylesheet">
 
@@ -53,31 +53,7 @@
     </nav>
 
     <div class="site-content">
-        <div class="container">
-            <div class="main-content">{{ content }}</div>
-        </div>
-        <div class="jumbotron fortags">
-            <div class="d-md-flex h-100">
-                <div class="col-md-4 transpdark align-self-center text-center h-100"
-                    style="backdrop-filter: blur(0.33em);-moz-backdrop-filter: blur(0.33em);-ms-backdrop-filter: blur(0.33em);-webkit-backdrop-filter: blur(0.33em);">
-                    <div class="d-md-flex align-items-center justify-content-center h-100">
-                        <h2 class="d-md-block align-self-center py-1 font-weight-light">More from around <span
-                                class="d-none d-md-inline">→</span></h2>
-                    </div>
-                </div>
-                <div class="col-md-8 p-5 align-self-center text-center">
-                    {% assign categories_list = site.categories %}
-                    {% for category in categories_list %}
-                    <a class="mt-1 mb-1"
-                        href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{
-                        category[0] | camelcase }}
-                        ({{ category[1].size }})</a>
-                    {% endfor %}
-                    {% assign categories_list = nil %}
-                </div>
-            </div>
-        </div>
-
+        <div class="main-content">{{ content }}</div>
         <footer class="footer">
             <div class="row" style="padding:5px 2em;">
                 <div class="col-md-6 col-sm-6 text-center text-lg-left">Copyright © {{ site.time | date: "%Y" }} {{
