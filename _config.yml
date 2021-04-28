@@ -26,15 +26,6 @@ plugins:
   - jekyll-archives
 
 collections:
-  snippets:
-    output: true
-    permalink: /snippets/:path
-  evolution:
-    output: true
-    permalink: /evolution/:path
-  longs:
-    output: true
-    permalink: /longs/:path
 
 # Archives
 jekyll-archives:
