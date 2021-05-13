@@ -22,10 +22,16 @@
 <body class="{{layout}}" xmlns="http://www.w3.org/2000/svg">
     <!-- Begin Menu Navigation
 ================================================== -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top mediumnavigation nav-down blur-32"
-        style="background:#fffa">
+    <div class="w-100 d-flex justify-content-center align-items-center"
+        style="background: url(https://bitsgcelestia.files.wordpress.com/2019/09/cropped-img_0636-1.jpg) center center no-repeat;background-size:cover;min-height:200px; color:#fff;font: 700 32px Helvetica;">
+        <span class="p-5 blur-8" style="background:#0008;">
+            {{site.name}}
+        </span>
+    </div>
+    <nav class="navbar navbar-dark navbar-expand-lg  fixed-top font-weight-bolder nav-down"
+        style="background: #001;position: sticky;top:0;">
         <div class="container pr-0">
-            <a class="navbar-brand" href="{{ site.baseurl }}/">Frontier</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">{{site.name}}</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
                     class="navbar-toggler-icon"></span></button>
@@ -52,16 +58,15 @@
         </div>
     </nav>
 
-    <div class="site-content">
-        <div class="main-content">{{ content }}</div>
-        <footer class="footer">
-            <div class="row" style="padding:5px 2em;">
-                <div class="col-md-6 col-sm-6 text-center text-lg-left">Copyright © {{ site.time | date: "%Y" }} {{
-                    site.name }}</div>
-                <div class="col-md-6 col-sm-6 text-center text-lg-right">For the informed user</div>
+    <div class="main-content">{{ content }}</div>
+    <footer class="footer">
+        <div class="row" style="padding:5px 2em;">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © {{ site.time | date: "%Y" }} {{site.name }}
             </div>
-        </footer>
-    </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">{{site.description}}</div>
+        </div>
+    </footer>
 </body>
 <script src="{{ site.baseurl }}/assets/js/frontier.js"></script>
 

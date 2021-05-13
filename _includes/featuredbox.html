@@ -4,8 +4,10 @@
 <a href="{{ site.baseurl }}{{ post.url }}" class="col-md-12"
     style="background: url({{img}}) center center no-repeat;background-size:cover;height:400px">
     <div class="apple-card d-flex flex-column justify-content-center align-items-center w-100">
-        <h3 class="apple-title">{{ post.title }}</h3>
+        <h3 class="apple-title">★ {{ post.title }}</h3>
         <h5 class="apple-desc">{{ post.excerpt | strip_html | truncatewords:28}}</h5>
+        <br>
+        <span style="font: 500 italic 16px Helvetica;">See the {{post.type}} &rarr;</span>
         </span>
     </div>
     <style>

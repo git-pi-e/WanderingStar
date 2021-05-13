@@ -1,13 +1,13 @@
 # Site
-name: "Frontier"
-title: "Frontier"
-description: "Just a minute, let me write that down"
+nick: "Asimov"
+name: "The Wandering Star"
+title: "SEDS Celestia Blog"
+description: "An Space blog written and maintained by SEDS Celestia"
 logo: 'assets/images/logoWide.png'
 favicon: 'favicon.png'
 baseurl:
 include: ["_pages"]
 permalink: /:title/
-hash: ea4a77a3bf419cfad2dbf6c728b3f34409dff04335379934cd320b7f16f6e0c29a4f7fa109c7d9a7d84e9037ff98fb9f6914be4fd39dfc0a7a70501370a77227
 
 # Authors
 authors:
@@ -48,4 +48,4 @@ kramdown:
     block:
       line_numbers: true
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile*]
