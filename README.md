@@ -1,4 +1,4 @@
-# Frontier - Nukes Foundation
+# Jekyll Blog for Celestia (Frontier fork from @plutoniumm)
 
 gem install bundler
 
