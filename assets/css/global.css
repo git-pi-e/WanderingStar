@@ -1,36 +1,38 @@
-body{
+body {
     font: 300 16px Helvetica;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body::-webkit-scrollbar{display:none;}
-
-svg{
-    stroke:currentcolor;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-    stroke-width:2;
-    fill:none;
+body::-webkit-scrollbar {
+    display: none;
 }
 
-.blur-32{
+svg {
+    stroke: currentcolor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    fill: none;
+}
+
+.blur-32 {
     backdrop-filter: blur(32px);
     -webkit-backdrop-filter: blur(32px);
     -moz-backdrop-filter: blur(32px);
 }
 
-.blur-8{
+.blur-8 {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     -moz-backdrop-filter: blur(8px);
 }
 
-.flex-col{
-    display:flex;
-    flex-direction:column;
+.flex-col {
+    display: flex;
+    flex-direction: column;
 }
 
-button{
+button {
     background: none;
     border: none;
     cursor: pointer;
@@ -50,7 +52,16 @@ ul form input[type="text"] {
     transition: all 0.2s ease;
 }
 
-nav:hover form input[type="text"], nav form input:focus {
+nav:hover form input[type="text"],
+nav form input:focus {
     opacity: 1;
     width: 150px;
+}
+
+.author {
+    font-style: italic;
+}
+
+.link-desc{
+    font-style: italic;
 }
