@@ -28,8 +28,8 @@
             {{site.name}}
         </span>
     </div>
-    <nav class="navbar navbar-dark navbar-expand-lg  fixed-top font-weight-bolder nav-down"
-        style="background: #001;position: sticky;top:0;">
+
+    <nav class="navbar navbar-dark navbar-expand-lg bg-light fixed-top nav-down position-sticky top-0">
         <div class="container pr-0">
             <a class="navbar-brand" href="{{ site.baseurl }}/">{{site.name}}</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
@@ -60,7 +60,7 @@
 
     <div class="main-content">{{ content }}</div>
     <footer class="footer">
-        <div class="row" style="padding:5px 2em;">
+        <div class="row m-0 p-1">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                 Copyright © {{ site.time | date: "%Y" }} {{site.name }}
             </div>
@@ -68,6 +68,5 @@
         </div>
     </footer>
 </body>
-<script src="{{ site.baseurl }}/assets/js/frontier.js"></script>
 
 </html>
