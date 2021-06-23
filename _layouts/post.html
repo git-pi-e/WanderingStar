@@ -7,16 +7,48 @@ post_class: post-template
 <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 
-<div class="mainheading">
-    <h1 class="posttitle" style="width: 100%;text-align: center;">{{ page.title }}</h1>
-</div>
-
 {% if page.image %}
-<img class="featured-image img-fluid lazyimg"
-    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mPs+A8AAhUBiUo2eoUAAAAASUVORK5CYII="
-    data-src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif
-    %}" alt="{{ page.title }}">
+<img class="featured-image img-fluid" src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif
+        %}" alt="{{ page.title }}">
 {% endif %}
+
+<h1 class="posttitle" style="width: 100%;text-align: center;">{{ page.title }}</h1>
+
+<a id="prevCont" href="{{ page.previous.url| default:'#'}}" style="position:absolute;left:0;top:100%;">
+    <style>
+        #previous,
+        #prev_post {
+            position: absolute;
+            color: #fff;
+        }
+
+        #prev_post {
+            width: 200px;
+            background: #fff;
+            color: #000;
+            left: 50px;
+            top: 20%;
+            transform: translateX(-400px);
+            transition: transform 0.2s ease;
+        }
+
+        #prevCont:hover #prev_post {
+            transform: translateX(0px);
+        }
+
+        @media (max-width: 768px) {
+            #prevCont {
+                display: none;
+            }
+        }
+    </style>
+    <div id="previous" class="px-4 py-5" style="background:var(--theme);">&larr;</div>
+    <div id="prev_post" class="p-4">
+        <span style="color:#888;font-size: 0.8em;">PREVIOUS</span> <br>
+        <span style="font-weight: bold;color:#000;">{{page.previous.title | default:"All Caught Up!"}}</span>
+    </div>
+</a>
+
 <div class="container" id="main">
     <style>
         .article-post img {
@@ -35,20 +67,29 @@ post_class: post-template
         }
     </style>
     <script>
-        function windowLink() {
-            let dummy = document.createElement( 'input' ),
-                text = window.location.href;
-            dummy.style.opacity = 0;
-            document.body.appendChild( dummy );
-            dummy.value = text;
-            dummy.select();
+        const copyToClipboard = () => {
+            const el = document.createElement( 'textarea' );
+            el.value = window.location.href;
+            el.setAttribute( 'readonly', '' );
+            el.style.position = 'absolute';
+            el.style.left = '-9999px';
+            document.body.appendChild( el );
+            const selected =
+                document.getSelection().rangeCount > 0
+                    ? document.getSelection().getRangeAt( 0 )
+                    : false;
+            el.select();
             document.execCommand( 'copy' );
-            document.body.removeChild( dummy );
-        }
+            document.body.removeChild( el );
+            if ( selected ) {
+                document.getSelection().removeAllRanges();
+                document.getSelection().addRange( selected );
+            }
+        };
     </script>
     <div class="row">
         <div class="col-md-2">
-            <button class="flex-col sharesheet" onclick="windowLink()">
+            <button class="flex-col sharesheet" onclick="copyToClipboard()">
                 <svg viewBox="0 0 32 32" width="32" height="32">
                     <path
                         d="M18 8 C18 8 24 2 27 5 30 8 29 12 24 16 19 20 16 21 14 17 M14 24 C14 24 8 30 5 27 2 24 3 20 8 16 13 12 16 11 18 15" />
@@ -84,10 +125,10 @@ post_class: post-template
             </p>
 
             <div class="after-post-cats">
-                <ul class="tags mb-4">
-                    {% assign sortedCategories = page.categories | sort %}
+                <ul class="tags">
+                    {% assign sortedCategories = page.tags | sort %}
                     {% for category in sortedCategories %}
-                    <li>
+                    <li class="my-2">
                         <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " "," -" }}">{{
                             category }}</a>
                     </li>
@@ -96,4 +137,32 @@ post_class: post-template
             </div>
         </div>
     </div>
+
+
+    <script>
+        const nav = document.querySelector( 'nav' );
+
+        const bod = document.body;
+        const height = window.innerHeight
+        window.addEventListener( "scroll", () => {
+            let scrollPercentRounded = Math.round( window.scrollY * 100 / ( bod.offsetHeight - height ) );
+            bod.style.setProperty( '--read', scrollPercentRounded + '%' );
+        } );
+    </script>
+    <style>
+        :root {
+            --read: 50%;
+        }
+
+        nav::after {
+            transition: width 0.1s ease;
+            content: '';
+            left: 0;
+            width: calc(var(--read));
+            height: 4px;
+            background: var(--theme);
+            position: absolute;
+            bottom: -4px;
+        }
+    </style>
 </div>
