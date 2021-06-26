@@ -129,7 +129,7 @@ post_class: post-template
                     {% assign sortedCategories = page.tags | sort %}
                     {% for category in sortedCategories %}
                     <li class="my-2">
-                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " "," -" }}">{{
+                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ category | replace: " "," -" }}">{{
                             category }}</a>
                     </li>
                     {% endfor %}
