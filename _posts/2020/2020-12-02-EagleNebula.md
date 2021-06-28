@@ -9,7 +9,7 @@ type: Article
 image: https://i.imgur.com/DhER9lk.png
 ---
  SEDS Celestia presents to you this amazing article about one of the most beautiful nebula present in this universe, Eagle Nebula. This articles talks in depth about interesting facts, science and history of this nebula including “The Pillars of Creation”. Dive right in to learn all about it .
- 
+
 ![Path](https://i.imgur.com/DhER9lk.png)
 \
 *Three-color composite mosaic image of the Eagle Nebula, with north at top. Credit: ESO*
