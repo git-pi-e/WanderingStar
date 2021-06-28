@@ -10,12 +10,9 @@ include: ["_pages"]
 permalink: /:title/
 
 # Authors
-authors:
-  plutonium:
-    name: plutoniumm
-    display_name: plutoniumm
-    email: meh@notneeded.com
-    description: "I got nothin bruh"
+defualts:
+  author:
+    avatar: https://pbs.twimg.com/profile_images/1241100252976824320/Y5AmSOfT_400x400.jpg
 
 # Plugins
 plugins:

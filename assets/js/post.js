@@ -29,7 +29,6 @@ window.addEventListener( "scroll", () => {
 
 const syllables = ( word ) => word.length <= 3 ? 1 : word?.toLowerCase()?.replace( /(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '' )?.replace( /^y/, '' )?.match( /[aeiouy]{1,2}/g )?.length;
 
-const sents = ( `{{ content| strip_html | strip_newlines}}` ).replace( /\d+\.?\d*/g, "" );
 const spaces = sents.split( ' ' ).length;
 
 const polysyllables = sents.split( ' ' ).map( syllables ).filter( e => e > 2 );
@@ -44,10 +43,9 @@ const average = 0.5 * SMOG_index + 0.25 * AutoReadIndx + 0.25 * Coleman_Liau;
 const scale = ~~( 100 * 3.3 * ( average - 0.7 ) );
 
 const difficulty = ( val ) => {
-    if ( val <= 68 ) return '∫';
-    if ( val <= 82 ) return '∫∫';
-    if ( val <= 96 ) return '∫∫∫';
-    if ( val >= 99 ) return '∫∫∫∫';
+    if ( val <= 68 ) return 'Easy';
+    if ( val <= 82 ) return 'Light';
+    if ( val >= 96 ) return 'Heavy';
 }
 
 document.querySelector( '#difficulty' ).innerText = difficulty( scale );

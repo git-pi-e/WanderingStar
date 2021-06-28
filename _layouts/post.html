@@ -9,19 +9,18 @@ post_class: post-template
 
 {% assign charCount = page.content | size %}
 {% assign wordCount = page.content | number_of_words %}
+{% assign author = site.data.authors[page.author] %}
 
 <script>
     const wordCount = {{ wordCount }};
     const charCount = {{ charCount }};
+    const sents = ( `{{ content| strip_html | strip_newlines}}` ).replace( /\d+\.?\d*/g, "" );
 </script>
 
 {% if page.image %}
 <img class="featured-image img-fluid" src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif
         %}" alt="{{ page.title }}">
 {% endif %}
-
-<h1 class="posttitle text-center w-100">{{ page.title }}</h1>
-<div class="text-center" style="color: #999;"> {{wordCount | divided_by: 244}} minutes</div>
 
 <a id="prevCont" href="{{ page.previous.url| default:'#'}}" style="position:absolute;left:0;top:100%;">
     <div id="previous" class="px-4 py-5" style="background:var(--theme);">&larr;</div>
@@ -43,25 +42,29 @@ post_class: post-template
                     Copy Link
                 </span>
             </button>
-            <button class="flex-col sharesheet">
-                <div class="p-3" id="difficulty">
-                </div>
-                <span>
-                    Difficulty
-                </span>
-            </button>
         </div>
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="article-post">
-                {% if page.toc %}
+
+                <div class="text-center">
+                    <h1 class="posttitle w-100">{{ page.title }}</h1>
+                    <div style="color: #999;">
+                        <span>{% if author.nick %}{{author.nick}}{% else %}{{author.name}}{% endif %}</span>
+                        <span>&bull;</span>
+                        <span id="difficulty"></span>
+                        <span>&bull;</span>
+                        <span> {{wordCount | divided_by: 244}} min</span>
+                    </div>
+                </div>
+
+                {% unless page.notoc %}
                 {% if page.beforetoc %}
                 <p><em>{{page.beforetoc}}</em></p>
                 {% endif %}
                 <div class="toc mt-4 mb-4 lead">
-                    <h3 class="font-weight-bold">Summary</h3>
                     {% include toc.html html=content %}
                 </div>
-                {% endif %}
+                {% endunless %}
                 {{content}}
             </div>
 
@@ -86,6 +89,22 @@ post_class: post-template
                     </li>
                     {% endfor %}
                 </ul>
+            </div>
+
+            <div class="p-3 bg-light d-lg-flex text-center text-lg-left" style="position:relative;">
+                <svg class="ml-auto" viewBox="0 0 32 32" width="20" height="20"
+                    style="position:absolute;top:1em;right:1em;">
+                    <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
+                </svg>
+
+                <img class="rounded-circle m-2"
+                    src="{% if author.avatar %}{{author.avatar}}{% else %}{{site.defualts.author.avatar}}{% endif %}"
+                    width="100px" height="100px" alt="" style="object-fit: cover;">
+
+                <div class="p-2">
+                    <h5>{{author.name}} {% if author.nick %}({{author.nick}}){% endif %}</h5>
+                    <span class="w-75">{{author.bio | truncate: 280}}</span>
+                </div>
             </div>
         </div>
     </div>
