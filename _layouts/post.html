@@ -7,41 +7,23 @@ post_class: post-template
 <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
 
+{% assign charCount = page.content | size %}
+{% assign wordCount = page.content | number_of_words %}
+
+<script>
+    const wordCount = {{ wordCount }};
+    const charCount = {{ charCount }};
+</script>
+
 {% if page.image %}
 <img class="featured-image img-fluid" src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif
         %}" alt="{{ page.title }}">
 {% endif %}
 
-<h1 class="posttitle" style="width: 100%;text-align: center;">{{ page.title }}</h1>
+<h1 class="posttitle text-center w-100">{{ page.title }}</h1>
+<div class="text-center" style="color: #999;"> {{wordCount | divided_by: 244}} minutes</div>
 
 <a id="prevCont" href="{{ page.previous.url| default:'#'}}" style="position:absolute;left:0;top:100%;">
-    <style>
-        #previous,
-        #prev_post {
-            position: absolute;
-            color: #fff;
-        }
-
-        #prev_post {
-            width: 200px;
-            background: #fff;
-            color: #000;
-            left: 50px;
-            top: 20%;
-            transform: translateX(-400px);
-            transition: transform 0.2s ease;
-        }
-
-        #prevCont:hover #prev_post {
-            transform: translateX(0px);
-        }
-
-        @media (max-width: 768px) {
-            #prevCont {
-                display: none;
-            }
-        }
-    </style>
     <div id="previous" class="px-4 py-5" style="background:var(--theme);">&larr;</div>
     <div id="prev_post" class="p-4">
         <span style="color:#888;font-size: 0.8em;">PREVIOUS</span> <br>
@@ -50,43 +32,6 @@ post_class: post-template
 </a>
 
 <div class="container" id="main">
-    <style>
-        .article-post img {
-            border-radius: 10px;
-        }
-
-        .img-fluid {
-            max-height: 200px;
-            width: 100%;
-            object-fit: cover
-        }
-
-        .sharesheet {
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
-    <script>
-        const copyToClipboard = () => {
-            const el = document.createElement( 'textarea' );
-            el.value = window.location.href;
-            el.setAttribute( 'readonly', '' );
-            el.style.position = 'absolute';
-            el.style.left = '-9999px';
-            document.body.appendChild( el );
-            const selected =
-                document.getSelection().rangeCount > 0
-                    ? document.getSelection().getRangeAt( 0 )
-                    : false;
-            el.select();
-            document.execCommand( 'copy' );
-            document.body.removeChild( el );
-            if ( selected ) {
-                document.getSelection().removeAllRanges();
-                document.getSelection().addRange( selected );
-            }
-        };
-    </script>
     <div class="row">
         <div class="col-md-2">
             <button class="flex-col sharesheet" onclick="copyToClipboard()">
@@ -96,6 +41,13 @@ post_class: post-template
                 </svg>
                 <span>
                     Copy Link
+                </span>
+            </button>
+            <button class="flex-col sharesheet">
+                <div class="p-3" id="difficulty">
+                </div>
+                <span>
+                    Difficulty
                 </span>
             </button>
         </div>
@@ -129,7 +81,7 @@ post_class: post-template
                     {% assign sortedCategories = page.tags | sort %}
                     {% for category in sortedCategories %}
                     <li class="my-2">
-                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " "," -" }}">{{
+                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ category | replace: " "," -" }}">{{
                             category }}</a>
                     </li>
                     {% endfor %}
@@ -138,20 +90,26 @@ post_class: post-template
         </div>
     </div>
 
+    <script src="{{sit.baseurl}}/assets/js/post.js"></script>
 
-    <script>
-        const nav = document.querySelector( 'nav' );
-
-        const bod = document.body;
-        const height = window.innerHeight
-        window.addEventListener( "scroll", () => {
-            let scrollPercentRounded = Math.round( window.scrollY * 100 / ( bod.offsetHeight - height ) );
-            bod.style.setProperty( '--read', scrollPercentRounded + '%' );
-        } );
-    </script>
     <style>
+        .article-post img {
+            border-radius: 10px;
+        }
+
+        .img-fluid {
+            max-height: 200px;
+            width: 100%;
+            object-fit: cover
+        }
+
+        .sharesheet {
+            align-items: center;
+            justify-content: center;
+        }
+
         :root {
-            --read: 50%;
+            --read: 0%;
         }
 
         nav::after {
@@ -163,6 +121,32 @@ post_class: post-template
             background: var(--theme);
             position: absolute;
             bottom: -4px;
+        }
+
+        #previous,
+        #prev_post {
+            position: absolute;
+            color: #fff;
+        }
+
+        #prev_post {
+            width: 200px;
+            background: #fff;
+            color: #000;
+            left: 50px;
+            top: 20%;
+            transform: translateX(-400px);
+            transition: transform 0.2s ease;
+        }
+
+        #prevCont:hover #prev_post {
+            transform: translateX(0px);
+        }
+
+        @media (max-width: 768px) {
+            #prevCont {
+                display: none;
+            }
         }
     </style>
 </div>
