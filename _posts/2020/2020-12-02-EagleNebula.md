@@ -3,7 +3,7 @@ layout: post
 title:  "Eagle Nebula"
 author: "Afraj Shaikh"
 date: "2 December, 2020"
-tags: "Astronomy, Bit, BITS Goa, BITSG, BPGC, Celestia, Observations, eagle nebula, nebula, pillars of creation, SEDS, SEDS Celestia, Messier 16, space"
+tags: ["Observations", "Eagle nebula", "nebula", "Pillars of Creation", "Messier 16"]
 category: "Uncategorized"
 type: Article
 image: https://i.imgur.com/DhER9lk.png

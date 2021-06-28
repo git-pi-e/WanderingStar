@@ -3,7 +3,7 @@ layout: post
 title:  "Astrophotgraphy for Beginners"
 author: "Shriram Joshi"
 date: "8 March, 2021"
-tags: "Astronomy, Bit, BITS Goa, BITSG, BPGC, Celestia, Observations, astrophotgraphy, beginner, SEDS, SEDS Celestia, Skywatching, camera,space"
+tags: ["Observations", "astrophotgraphy", "beginner", "Skywatching", "camera"]
 category: "Uncategorized"
 type: Article
 image: https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg

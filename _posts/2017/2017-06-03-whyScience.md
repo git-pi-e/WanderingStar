@@ -3,7 +3,7 @@ layout: post
 title:  "Why Science?"
 author: "Hareesh Nair"
 date: "3 June, 2017"
-tags: "Astronomy, Bit, BITS Goa, BITSG, BPGC, Celestia, Observations, science, SEDS, SEDS Celestia, space"
+tags: ["Observations", "science"]
 category: "Uncategorized"
 type: Blog
 image: https://i.imgur.com/s8nBcTR.jpg
