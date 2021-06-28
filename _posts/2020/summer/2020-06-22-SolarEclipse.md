@@ -3,7 +3,7 @@ layout: post
 title:  "Solar Eclipse 101"
 author: "Kaustubh Murudkar"
 date: "October 12, 2020"
-tags: ["annular", "Astronomy", "Astrophysics", "author:Kaustubh MurudKar", "BITS Goa", "BITSG", "BPGC", "earth", "event", "moon", "Mythology", "Observations", "penumbra", "Science", "SEDS", "SEDS Celestia", "sun"]
+tags: ["annular", "Astrophysics", "author:Kaustubh MurudKar", "earth", "event", "moon", "Mythology", "Observations", "penumbra", "sun"]
 category: "Uncategorized"
 type: Blog
 image: https://i.imgur.com/AjIIRvuh.png
