@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  "Why Science?"
-author: "Hareesh Nair"
-date: "3 June, 2017"
-tags: ["Observations", "science"]
+author: Hareesh Nair
+tags: Observations
 category: "Uncategorized"
 type: Blog
 image: https://i.imgur.com/s8nBcTR.jpg
@@ -27,7 +25,7 @@ People like this theory and they accept it. However, they are open to questionin
 
 Now why science? Because science is option B. The process that we follow to establish the foundation of science, we are ready to question it as well. Just the fact that you can question science and there will be an answer makes science credible. And if there is not an answer to the question, it’s even better, that’s when you change those pillars. That’s when you redefine science. That’s when you discover something new. A hidden face of this universe unveiling in front of you. Now, if someone says that times slows down in a moving frame, you cannot choose to refuse it. It’s not an opinion. It’s just how the world works. Doesn’t mean that you cannot question it. You can always question the reliability of the conclusions drawn from an experiment or how a hypothesis is unstable or stable. You always have the liberty to choose, to do, to manipulate, to find a better solution and whatever logically is right will be accepted.
 
- 
+
 
 Towards a more philosophical aspect. If someone says the Earth is flat or vaccines are not good or cancer is a propaganda, we have two options. A or B? We can refuse them, refuse to acknowledge and ignore them. We can progress with what we believe is right. Follow the methodical system we follow to establish science which we personally chose as a right option. Or we can wait and consider conflicting contradicting opinions. Slow down science for a second and ensure are we on the right track? If no, go back and fix where we went wrong. If yes, provide a reasoning to why the system is still consistent and go ahead at the original pace we are meant to go.
 

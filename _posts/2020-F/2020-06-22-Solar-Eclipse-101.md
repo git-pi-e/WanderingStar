@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "Solar Eclipse 101"
 author: "Kaustubh Murudkar"
-date: "October 12, 2020"
-tags: ["annular", "Astrophysics", "author:Kaustubh MurudKar", "earth", "event", "moon", "Mythology", "Observations", "penumbra", "sun"]
+tags: Annular Earth Moon Mythology Penumbra Sun
 category: "Uncategorized"
-type: Blog
+type: Event
 image: https://i.imgur.com/AjIIRvuh.png
 ---
 
-*“If this could be repeated every day for a year, I would never budge from where I stood”*  
+*“If this could be repeated every day for a year, I would never budge from where I stood”*
 -Wendy Mass
 
 Solar Eclipses are a sight to behold. They are often called ‘the nature’s greatest coincidences’ and continue to fascinate people from all around the world. So, in this article, lets get to know everything there is to know about Solar eclipses.

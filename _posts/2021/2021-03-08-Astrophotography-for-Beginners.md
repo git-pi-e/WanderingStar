@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  "Astrophotgraphy for Beginners"
-author: "Shriram Joshi"
-date: "8 March, 2021"
-tags: ["Observations", "astrophotgraphy", "beginner", "Skywatching", "camera"]
+author: Shriram Joshi
+tags: Observations Astrophotgraphy Beginner Skywatching Camera
 category: "Uncategorized"
 type: Article
 image: https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg
@@ -18,7 +16,7 @@ The night sky can be considered as one of the most magnificent spectacles that w
 
 Astrophotography is one of the most interesting, yet a very unpopular hobby one can take up. In this article we will help you get started with the basics of how to spot and photograph night sky objects using nothing but your mobile phones. Most smartphones come with Camera applications that have a “pro” mode that lets you control most of the parameters of a photograph. If not, there are apps available on the app stores that let you do the same. Along with a Camera app that has a “pro” mode one might also need a night sky map application. These apps help you locate stars, constellations, and planets. Once you have these apps ready it is time to dive into the basics of photography. The three pillars of photography are the ISO, aperture and shutter speed/exposure time. We will go through these briefly one by one. You can find the formal definitions of these online however in this article we will discuss how these different parameters affect your image.
 
-The ISO in simple terms is a setting that determines the brightness of the image. More the ISO, the brighter your images will be. You can understand ISO as the measure of sensitivity of your camera towards light. Most phone cameras give a range of ISO from 100 to 1600/3200. The standard ISO range for daylight images is 100-800, however, to photograph the night sky a higher ISO number is required. Generally, for night sky images you can set the ISO to 1600 or above. However, there are a few downsides to this. If there is a lot of light pollution around you, higher ISO may induce some noise in your image. 
+The ISO in simple terms is a setting that determines the brightness of the image. More the ISO, the brighter your images will be. You can understand ISO as the measure of sensitivity of your camera towards light. Most phone cameras give a range of ISO from 100 to 1600/3200. The standard ISO range for daylight images is 100-800, however, to photograph the night sky a higher ISO number is required. Generally, for night sky images you can set the ISO to 1600 or above. However, there are a few downsides to this. If there is a lot of light pollution around you, higher ISO may induce some noise in your image.
 
 ![ISO Comparison](https://i.imgur.com/lnh5a5h.jpeg)
 

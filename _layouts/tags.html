@@ -3,68 +3,52 @@ title: "Tags"
 layout: default
 permalink: "/tags.html"
 ---
-<h2>All Tags</h2>
-<button class="button" onclick="topFunction()">&#x2191;</button>
-<div class="after-post-tags">
-    <ul class="tags">
+<section class="px-5 py-2">
+    <h2>All Tags</h2>
+    <button class="scrollBtn p-0" onclick="topFunction()">&#x2191;</button>
+    <div class="after-post-tags">
+        <ul class="tags">
+            {% for tags in site.tags %}
+            <li style="margin: 0.5em 0.25em">
+                <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tags[0] | replace: " "," -" }}">{{
+                    tags[0]
+                    }}</a>
+            </li>
+            {% assign pages_list = tags[1] %}
+            {% for post in pages_list %}
+            {% if post.title != null %}
+            {% if group == null or group == post.group %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% assign pages_list = nil %}
+            {% assign group = nil %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="row listrecent">
         {% for tags in site.tags %}
-        <li style="margin: 0.5em 0.25em">
-            <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tags[0] | replace: " "," -" }}">{{
-                tags[0]
-                }}</a>
-        </li>
+        <div class="section-title col-md-12 mt-4">
+            <h2 id="{{ tags[0] | replace: " "," -" }}"><span class="text-capitalize">{{ tags[0] }}</span>
+            </h2>
+        </div>
         {% assign pages_list = tags[1] %}
         {% for post in pages_list %}
         {% if post.title != null %}
         {% if group == null or group == post.group %}
+        {% include postbox.html %}
         {% endif %}
         {% endif %}
         {% endfor %}
         {% assign pages_list = nil %}
         {% assign group = nil %}
         {% endfor %}
-    </ul>
-</div>
-
-<div class="row listrecent">
-    {% for tags in site.tags %}
-    <div class="section-title col-md-12 mt-4">
-        <h2 id="{{ tags[0] | replace: " "," -" }}"><span class="text-capitalize">{{ tags[0] }}</span>
-        </h2>
     </div>
-    {% assign pages_list = tags[1] %}
-    {% for post in pages_list %}
-    {% if post.title != null %}
-    {% if group == null or group == post.group %}
-    {% include postbox.html %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
-    {% endfor %}
-</div>
-
-<style>
-.button {
-display: inline-block;
-width:40px;
-height:40px;
-font-size:30px;
-text-align: center;
-border-radius: 4px;
-position: fixed;
-bottom: 30px;
-right: 30px;
-z-index: 1000;
-}
-.button:hover{
-
-}
-</style>
-<script>
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</section>

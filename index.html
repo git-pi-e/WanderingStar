@@ -5,7 +5,7 @@ title: Home
 {% if page.url == "/" %}
 <style>
     body {
-        background: #e5e5e7;
+        background: #eef4;
         font-size: 16px;
     }
 
@@ -17,7 +17,7 @@ title: Home
 <section class="featured-posts">
     <div class="row">
 
-        {% assign timeframe = 86400 | times: 1000 %}
+        {% assign timeframe = 86400 | times: 183 %}
 
         {% for post in site.posts %}
         {% assign post_in_seconds = post.date | date: "%s" | plus: timeframe %}

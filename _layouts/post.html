@@ -81,8 +81,8 @@ post_class: post-template
                     {% assign sortedCategories = page.tags | sort %}
                     {% for category in sortedCategories %}
                     <li class="my-2">
-                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ category | replace: " "," -" }}">{{
-                            category }}</a>
+                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ category }}">{{
+                            category | replace: "_", " " }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -131,15 +131,16 @@ post_class: post-template
 
         #prev_post {
             width: 200px;
-            background: #fff;
             color: #000;
             left: 50px;
             top: 20%;
-            transform: translateX(-400px);
-            transition: transform 0.2s ease;
+            opacity: 0;
+            transform: translateX(-200px);
+            transition: transform 0.2s ease, opacity 0.5s ease;
         }
 
         #prevCont:hover #prev_post {
+            opacity: 1;
             transform: translateX(0px);
         }
 

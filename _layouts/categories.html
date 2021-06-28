@@ -3,44 +3,52 @@ title: "Categories"
 layout: default
 permalink: "/categories.html"
 ---
+<section class="px-5 py-2">
+    <h2>Every Cat Ever</h2>
+    <button class="scrollBtn p-0" onclick="topFunction()">&#x2191;</button>
+    <div class="after-post-tags">
+        <ul class="tags">
+            {% for category in site.categories %}
+            <li style="margin: 0.5em 0.25em">
+                <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category[0] | replace: " "," -" }}">{{
+                    category[0]
+                    }}</a>
+            </li>
+            {% assign pages_list = category[1] %}
+            {% for post in pages_list %}
+            {% if post.title != null %}
+            {% if group == null or group == post.group %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% assign pages_list = nil %}
+            {% assign group = nil %}
+            {% endfor %}
+        </ul>
+    </div>
 
-<h2>Every Cat Ever</h2>
-<div class="after-post-tags">
-    <ul class="tags">
+    <div class="row listrecent">
         {% for category in site.categories %}
-        <li style="margin: 0.5em 0.25em">
-            <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category[0] | replace: " "," -" }}">{{
-                category[0]
-                }}</a>
-        </li>
+        <div class="section-title col-md-12 mt-4">
+            <h2 id="{{ category[0] | replace: " "," -" }}"><span class="text-capitalize">{{ category[0] }}</span>
+            </h2>
+        </div>
         {% assign pages_list = category[1] %}
         {% for post in pages_list %}
         {% if post.title != null %}
         {% if group == null or group == post.group %}
+        {% include postbox.html %}
         {% endif %}
         {% endif %}
         {% endfor %}
         {% assign pages_list = nil %}
         {% assign group = nil %}
         {% endfor %}
-    </ul>
-</div>
-
-<div class="row listrecent">
-    {% for category in site.categories %}
-    <div class="section-title col-md-12 mt-4">
-        <h2 id="{{ category[0] | replace: " "," -" }}"><span class="text-capitalize">{{ category[0] }}</span>
-        </h2>
     </div>
-    {% assign pages_list = category[1] %}
-    {% for post in pages_list %}
-    {% if post.title != null %}
-    {% if group == null or group == post.group %}
-    {% include postbox.html %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
-    {% endfor %}
-</div>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</section>

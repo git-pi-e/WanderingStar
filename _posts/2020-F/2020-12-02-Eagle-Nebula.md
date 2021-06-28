@@ -1,9 +1,7 @@
 ---
 layout: post
-title:  "Eagle Nebula"
-author: "Afraj Shaikh"
-date: "2 December, 2020"
-tags: ["Observations", "Eagle nebula", "nebula", "Pillars of Creation", "Messier 16"]
+author: Afraj Shaikh
+tags: Observations Nebula Pillars_of_Creation Messier-Series
 category: "Uncategorized"
 type: Article
 image: https://i.imgur.com/DhER9lk.png
