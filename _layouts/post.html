@@ -9,6 +9,7 @@ post_class: post-template
 
 {% assign charCount = page.content | size %}
 {% assign wordCount = page.content | number_of_words %}
+
 {% assign author = site.data.authors[page.author] %}
 
 <script>
@@ -49,22 +50,17 @@ post_class: post-template
                 <div class="text-center">
                     <h1 class="posttitle w-100">{{ page.title }}</h1>
                     <div style="color: #999;">
+                        {%if author %}
                         <span>{% if author.nick %}{{author.nick}}{% else %}{{author.name}}{% endif %}</span>
+                        {% else %}
+                        <span>{{page.author}}</span>
+                        {% endif %}
                         <span>&bull;</span>
-                        <span id="difficulty"></span>
+                        <span id="difficulty">Fun</span>
                         <span>&bull;</span>
                         <span> {{wordCount | divided_by: 244}} min</span>
                     </div>
                 </div>
-
-                {% unless page.notoc %}
-                {% if page.beforetoc %}
-                <p><em>{{page.beforetoc}}</em></p>
-                {% endif %}
-                <div class="toc mt-4 mb-4 lead">
-                    {% include toc.html html=content %}
-                </div>
-                {% endunless %}
                 {{content}}
             </div>
 
@@ -109,7 +105,7 @@ post_class: post-template
         </div>
     </div>
 
-    <script src="{{sit.baseurl}}/assets/js/post.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/post.js"></script>
 
     <style>
         .article-post img {

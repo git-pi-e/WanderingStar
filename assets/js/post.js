@@ -43,6 +43,7 @@ const average = 0.5 * SMOG_index + 0.25 * AutoReadIndx + 0.25 * Coleman_Liau;
 const scale = ~~( 100 * 3.3 * ( average - 0.7 ) );
 
 const difficulty = ( val ) => {
+    console.log( val );
     if ( val <= 68 ) return 'Easy';
     if ( val <= 82 ) return 'Light';
     if ( val >= 96 ) return 'Heavy';

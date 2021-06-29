@@ -4,7 +4,7 @@ gem install bundler
 
 bundle install
 
-bundle exec jekyll serve --watch
+jekyll serve --watch
 
 ### Contribute
 
