@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Hareesh Nair
+title: Why Science?
 tags: Observations
 category: "Uncategorized"
 type: Blog
