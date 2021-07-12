@@ -2,19 +2,19 @@
 layout: post
 author: Afraj Shaikh
 tags: Observations Nebula Pillars_of_Creation Messier-Series
-category: "Uncategorized"
+category: Uncategorized
 type: Article
 image: https://i.imgur.com/DhER9lk.png
 ---
- SEDS Celestia presents to you this amazing article about one of the most beautiful nebula present in this universe, Eagle Nebula. This articles talks in depth about interesting facts, science and history of this nebula including “The Pillars of Creation”. Dive right in to learn all about it .
-
-![Path](https://i.imgur.com/DhER9lk.png)
 \
-*Three-color composite mosaic image of the Eagle Nebula, with north at top. Credit: ESO*
+SEDS Celestia presents to you this amazing article about one of the most beautiful nebula present in this universe, Eagle Nebula. This articles talks in depth about interesting facts, science and history of this nebula including “The Pillars of Creation”. Dive right in to learn all about it .
 
+![Eagle Nebula](https://i.imgur.com/DhER9lk.png)
+\
+*Three-color composite mosaic image of the Eagle Nebula, with north at top.*
+*Credit: ESO*
 
 Nebulas are one of the most fascinating astronomical objects and have been a keen interest of astronomers for centuries. One of the most popular among them is Eagle Nebula. Eagle Nebula, also known as the Star Queen nebula is located in Serpens constellation at Serpens Cauda (the tail of the constellation). This nebula has been given sixteenth place in the Messier catalogue and has been blowing astronomers’ mind with its stellar beauty.
-
 
 ## History
 
@@ -24,7 +24,7 @@ Later, further studies revealed that there is a large area of glowing hydrogen w
 
 ## Pillars of Creation
 
-![Path](https://i.imgur.com/484XnUc.png)
+![Pillars of Creation](https://i.imgur.com/484XnUc.png)
 \
 *“The Pillars of Creation” – NASA, ESA and The Hubble Heritage Team*
 
@@ -36,18 +36,17 @@ In recent years, few observations have made astronomers question the existence o
 
 ![Stellar spire in the Eagle Nebula](https://i.imgur.com/RVikbhN.png)
 \
-[Stellar Spire in the Eagle Nebula, Image: NASA, ESA and Hubble Heritage Team]()
-
+*Stellar Spire in the Eagle Nebula, Image: NASA, ESA and Hubble Heritage Team*
 
 Stellar Spire is another active region of star formation located to the left of Pillars of Creation. It is a large tower of gas and is approximately 90 trillion kilometers in length. The ultraviolet light coming out of the young stars inside the spire have eroded it and is responsible for illuminating the rough surface of the spire.
 
-#### Composition
+## Composition
 
 The Eagle Nebula occupies an area of 70 by 55 light years in size (30 arc minutes) while its open star cluster has radius of about 15 light years (7 arc minutes in diameter). The brightest star in the Eagle Nebula is HD 168076. It is a binary star system which consist of O3.5V and O7.5V stars. This binary star system has an apparent magnitude of 8.24 and can be observed with good binoculars. This star has mass roughly 80 solar masses and luminosity of up to 1 million times of that of the Sun.
 
 The young open star cluster associated with Eagle Nebula; NGC 6611 was formed 5.5 million years ago. It is a type-c cluster which means it is very loose and irregular. The ultraviolet glow of hot, blue stars of this cluster is mainly responsible for the brightness of Eagle Nebula. Scientists suspect that the nebula has various such type of star-forming clusters within it.
 
-#### Location
+## Location
 
 M16 is about 7000 light years away from earth and resides in Serpens constellation. Its co-ordinates in Equatorial Co-ordinate system is given by RA  18h 18m 48s Dec -13° 49’ 0’’. M16 has an apparent magnitude of 6. There are different stars and constellations near M16 which also helps in providing its relative position with respect to them.
 
@@ -55,23 +54,23 @@ For example, it is located 2.5 degrees in west of Gamma Scuti and a few degrees 
 
 ***Here comes the end of this article, I guess I have covered a lot of interesting facts about Eagle Nebula. So, let me summarize some of the facts: –***
 
-**Eagle Nebula – Messier 16**
-\
-Constellation: Serpens (at Serpens Cauda)
-\
-Coordinates: Right Ascension 18h18m48s, Declination -13°49′0’’
-\
-Distance: 7,000 light years
-\
-Visual magnitude: +6
+### Eagle Nebula – Messier 16
 
-Absolute magnitude: -8.21
+Constellation: **Serpens (at Serpens Cauda)**
 \
-Apparent dimensions: 30 arc minutes\
-Radius: 70×55 light years
+Coordinates: **Right Ascension 18h18m48s, Declination -13°49′0’’**
 \
-Estimated age: 5.5 million years
+Distance: **7,000 light years**
 \
-Designations: Eagle Nebula, Star Queen Nebula, Messier 16 (M16), NGC 6611, IC 4703, Gum 83, Sharpless 49, RCW 165
+Visual magnitude: **+6**
+
+Absolute magnitude: **-8.21**
+\
+Apparent dimensions: **30 arc minutes**\
+Radius: **70×55 light years**
+\
+Estimated age: **5.5 million years**
+\
+Designations: **Eagle Nebula, Star Queen Nebula, Messier 16 (M16), NGC 6611, IC 4703, Gum 83, Sharpless 49, RCW 165**
 
 I hope this article would have given a brief insight about the Eagle Nebula. Well, Eagle Nebula is just one of the many fascinating messier objects and there’re lots of them to come in this messier series so do keep a track of them!!

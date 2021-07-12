@@ -2,10 +2,12 @@
 layout: post
 author: Yashraj Patil
 tags: Perseids Meteors Skywatching
-category: "Uncategorized"
+category: Uncategorized
 type: Event
 image: "assets/posts/2020/PMS2020.png"
 ---
+
+![Perseids Meteor Shower](../assets/posts/2020/PMS2020.png)
 
 Since the beginning of mankind on our blue planet, as old as our time goes, we have looked with awe and marveled at those bright streaks of lights that whiz past the black canvas on a starry night. The meteor showers are extraordinary cosmic events that have had impacts on many generations of civilizations and shaped their beliefs to carve out beautiful pieces of myths and legends. Evolving from bad omens to good luck over centuries of rise and fall of cultures, today we look at them with a logical perspective to explain their interesting origins to their dooming fate.
 

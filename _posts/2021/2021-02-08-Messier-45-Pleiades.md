@@ -2,8 +2,8 @@
 layout: post
 title:  "Messier 45: Pleiades"
 author: Ashutosh Gupta
-tags: Messier-Series Pleiades Star_Cluster
-category: "Uncategorized"
+tags: Messier-45  Pleiades  Star_Cluster
+category: Uncategorized
 type: Article
 image: https://i.imgur.com/GIWxodV.png
 ---
@@ -23,7 +23,6 @@ The first astronomer to view the Pleiades through a telescope was Galileo Galile
 ![Galileo’s drawings of the Pleiades](https://i.imgur.com/fcOb3OS.png)
 \
 *Galileo’s drawings of the Pleiades*
-{: .link-desc}
 
 In 1767, John Michell determined that the likelihood of a chance alignment of so many bright stars was just 1 in 500,000, so it surmised that the Pleiades and many other star clusters must be physically related. When studies were first made of the stars’ proper motions, it was found that they are all moving in the same direction across the sky, at the same rate, further demonstrating that they were related.
 
@@ -37,12 +36,12 @@ The cluster contains many brown dwarfs, which are objects with less than about 8
 
 ## How to Locate
 
-![Path](https://i.imgur.com/vqBv9Kg.png)
+![Location](https://i.imgur.com/vqBv9Kg.png)
 
 The Pleiades cluster is straightforward to find. It is located about 14 degrees northwest of Aldebaran, the brightest star in Taurus and 14th brightest star in the night sky. When the cluster is high in the sky, it can be located by following the line formed by the three bright stars that form Orion’s Belt: Alnilam, Alnitak and Mintaka. M45 lies to the northwest of the celestial Hunter.
 
 ## Special Characteristics
 
-![Path](https://i.imgur.com/THHVokF.png)
+![Special Characteristics](https://i.imgur.com/THHVokF.png)
 
 The nine brightest stars of the Pleiades are named for the Seven Sisters of Greek mythology: Sterope, Merope, Electra, Maia, Taygeta, Celaeno, and Alcyone, along with their parents Atlas and Pleione. By pointing Kepler at the Pleiades, researchers confirmed that six of the Seven Sisters — Alcyone, Atlas, Electra, Merope, Taygete and Pleione — are slowly pulsating type B stars, which change in brightness over the course of one day. The seventh star, named Maia, has a brightness that fluctuates over a more extended period of 10 days.
