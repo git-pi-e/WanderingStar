@@ -2,7 +2,7 @@
 layout: post
 title:  "Messier 45: Pleiades"
 author: Ashutosh Gupta
-tags: Messier-45  Pleiades  Star_Cluster
+tags: Messier-Series Pleiades Star_Cluster
 category: Uncategorized
 type: Article
 image: https://i.imgur.com/GIWxodV.png

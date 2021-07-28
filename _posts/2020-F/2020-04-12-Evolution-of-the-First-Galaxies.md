@@ -2,7 +2,7 @@
 layout: post
 author: Aeishna Khaund
 tags: Galaxies Lecture Matt-Malkan UCLA
-category: Messrier-Series
+category: Messier-Series
 type: Event
 image: "assets/posts/Celestia/SEDSLogoblack.png"
 ---
