@@ -66,6 +66,15 @@ nav form input:focus {
 
 .author {
     font-style: italic;
+    font-size: 0.8;
+    color: #aaa;
+    text-align: left;
+}
+
+.post-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .link-desc {
