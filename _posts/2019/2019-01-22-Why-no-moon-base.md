@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Why we don’t have a moon base, and other future predictions
-author: 
+author: Anonymous
 tags: Science Space_News Robots Moon_base
 category: Uncategorized
 type: Article
