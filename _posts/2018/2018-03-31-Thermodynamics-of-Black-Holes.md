@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Thermodyanmics of Black Holes
-author: Anon
+author: Anonymous
 tags: Black_holes Hawking Thermodynamics
 category: Uncategorized
 type: Article
