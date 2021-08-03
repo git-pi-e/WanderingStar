@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Principles In Theoretical Physics And Holographic Principle
-author: Anon
+author: Anonymous
 tags: Theoretical_Physics Holographic Physics
 category: Uncategorized
 type: Article
