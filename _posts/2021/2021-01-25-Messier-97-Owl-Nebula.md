@@ -7,7 +7,7 @@ category: "Uncategorized"
 type: Article
 image: https://i.imgur.com/prODvcm.jpg
 ---
-\
+
 The Owl Nebula, also known as Messier 97 (M97), is a planetary nebula located in Ursa Major. The nebula lies at an approximate distance of 2,030 light years from Earth. It is known for its distinctive shape, resembling a pair of owl-like eyes, that can be seen in larger telescopes. Learn more about it in this interesting article by our club member Gayatri.
 
 ## Introduction
@@ -25,8 +25,7 @@ This nebula was discovered by the French astronomer Pierre Méchain on February 
 
 ![The Owl Nebula - Cosmic Pursuits](http://cosmicpursuits.com/wp-content/uploads/2015/05/m97-owl-nebula.jpg)
 \
-[Original drawing of the Owl Nebula]()
-{: .link-desc}
+*Original drawing of the Owl Nebula*
 
 ## Composition
 

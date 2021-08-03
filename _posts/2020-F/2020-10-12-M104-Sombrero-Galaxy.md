@@ -2,7 +2,7 @@
 layout: post
 author: Bhuvan S V
 tags: Messier_Series Skywatching Sombrero_Galaxy
-category: "Uncategorized"
+category: Uncategorized
 type: Blog
 image: https://i.imgur.com/7NC6oYuh.jpg
 ---

@@ -6,7 +6,6 @@ category: "Uncategorized"
 type: Article
 image: https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg
 ---
-
 \
 The night sky can be considered as one of the most magnificent spectacles that we can experience every night. The twinkling stars, the bright moon and the cold yet exciting breeze all make the experience of stargazing literally out of the world. However nowadays as many of us live in populated cities where it is almost impossible to escape the light pollution it is very difficult to view the night sky at its complete beauty. In such cases devices like the DSLRs or even smart phones can come to our rescue.
 

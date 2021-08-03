@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "The Evolution of the First Galaxies"
 author: Aeishna Khaund
 tags: Galaxies Lecture Matt-Malkan UCLA
 category: Messier-Series
