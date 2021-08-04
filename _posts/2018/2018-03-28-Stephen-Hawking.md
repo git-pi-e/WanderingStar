@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Stephen Hawking - The Man Who Pushed the Boundaries of Knowledge
 author: Anonymous
 category: Uncategorized
 tags: Hawking 
