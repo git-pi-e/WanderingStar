@@ -66,6 +66,19 @@ nav form input:focus {
 
 .author {
     font-style: italic;
+    font-size: 0.8;
+    color: #aaa;
+    text-align: left;
+}
+
+.post-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article-post{
+    text-align: justify;
 }
 
 .link-desc {
@@ -86,7 +99,7 @@ nav form input:focus {
     left: 4%;
     width: 100%;
     height: 100%;
-    padding:1%;
+    padding: 1%;
 }
 
 .scrollBtn {

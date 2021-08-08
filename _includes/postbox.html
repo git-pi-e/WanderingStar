@@ -18,7 +18,11 @@
             <h2 class="card-title">
                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </h2>
-            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+            <h4 class="text-justify card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+            <span class="post-details">
+                <h4 class="card-text author">{{ post.author }}</h4>
+                <h4 class="card-text">{{ post.date | date_to_string }}</h4>
+            </span>
         </div>
     </div>
 </div>
