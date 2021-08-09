@@ -47,6 +47,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ site.baseurl }}/projects">Projects</a>
+                    </li>
                     <li>
                         <form action="/search" method="get">
                             <input type="text" placeholder="Search..." id="search_box" name="query">
@@ -59,9 +62,59 @@
     </nav>
 
     <div class="main-content">{{ content }}</div>
+    
     <footer class="footer">
-        <div class="row m-0 p-1">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+        <div class="p-3 m-0 row justify-content-around">
+            <div>
+                <h5>Our Accounts</h5>
+                <div class="d-flex flex-column footer-links">
+                    <a target="_blank" href="https://www.instagram.com/sedscelestia/">Instagram</a>
+
+                    <a target="_blank" href="https://www.facebook.com/celestiaclub/">Facebook</a>
+
+                    <a target="_blank" href="https://github.com/SEDSCelestiaBPGC">Github</a>
+
+                    <a target="_blank" href="https://www.linkedin.com/company/seds-celestia/">LinkedIn</a>
+                </div>
+            </div>
+
+            <div>
+                <h5>Our Content</h5>
+                <div class="d-flex flex-column">
+                    <a target="_blank" href="https://youtube.com/channel/UCuZ1RL7Qv5tKaQeWy28qhUw">Youtube</a>
+
+                    <a target="_blank"
+                        href="https://open.spotify.com/show/0NKbVLI7LpY6069IUCF6xi?si=nybrolgSQ5u2LoWEkm3U1A&nd=1">Spotify</a>
+
+                    <a target="_blank" href="https://radiopublic.com/celestia-onair-WeRp1J">Radio Public</a>
+
+                    <a target="_blank"
+                        href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NWYzZjAwOC9wb2RjYXN0L3Jzcw==">Google
+                        Podcasts</a>
+
+                    <a target="_blank" href="https://pca.st/b3mqu7bk">Pocketcast</a>
+
+                    <a target="_blank" href="https://breaker.audio/celestia-on-air">Breaker</a>
+                </div>
+            </div>
+
+            <div>
+                <h5>External Links</h5>
+                <div class="d-flex flex-column ">
+                    <a target="_blank" href="https://sedscelestia.org/">Main Website</a>
+
+                    <a target="_blank" href="https://sedscelestia.org/Galileo">Old Website</a>
+
+                    <a target="_blank" href="https://edu.sedscelestia.org/">SEDS Celestia Edu</a>
+
+                    <a target="_blank" href="https://sedsindia.org/">SEDS India</a>
+
+                    <a target="_blank" href="http://sedsearth.org/">SEDS Earth</a>
+                </div>
+            </div>
+        </div>
+        <div class="p-1 m-0 row">
+            <div class="text-center col-md-6 col-sm-6 text-lg-left">
                 Copyright © {{ site.time | date: "%Y" }} {{site.name }}
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">{{site.description}}</div>
