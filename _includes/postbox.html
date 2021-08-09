@@ -18,10 +18,13 @@
             <h2 class="card-title">
                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </h2>
-            <h4 class="text-justify card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
-            <div class="post-details">
-                <p class="author">{{ post.author }}</p>
-                <p class="post-date ">{{ post.date | date_to_string }}</p>
+            <div class="py-2">
+                
+                <h4 class="text-justify card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+                <div class="post-details">
+                    <p class="author">{{ post.author }}</p>
+                    <p class="post-date">{{ post.date | date_to_string }}</p>
+                </div>
             </div>
         </div>
     </div>
