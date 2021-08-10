@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Suchetan R S
-tags: Science Space_Tech Space_Robotics Technology_in_space 
-category: Science Space_News SpaceRobotics
+tags: Science Space_Tech Space_Robotics Technology_in_Space 
+category: Science Space_News Space_Robotics
 type: Article
 image: https://i.imgur.com/i21mv89h.png
 ---
