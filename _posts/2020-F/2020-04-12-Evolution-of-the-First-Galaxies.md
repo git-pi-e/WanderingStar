@@ -4,7 +4,7 @@ author: Aeishna Khaund
 tags: Galaxies Lecture Matt-Malkan UCLA
 category: Messier-Series
 type: Event
-image: "assets/posts/Celestia/SEDSLogoblack.png"
+image: "assets/posts/Celestia/SEDSLOGOblack.png"
 ---
 
 ## Lecture by Prof. Matthew A. Malkan, UCLA
