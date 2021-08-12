@@ -73,10 +73,16 @@ nav form input:focus {
     color: #888 !important;
 }
 
+.footer-links a:hover {
+    font-size: 14px !important;
+    color: #a8f !important;
+    font-weight: 350;
+}
+
 .author {
     font-style: italic;
     font-size: 0.8;
-    color: #aaa;
+    color: #888;
     text-align: left;
 }
 
@@ -92,8 +98,8 @@ nav form input:focus {
     margin-top: 2px;
 }
 
-.card-body{
-    min-height: 20vh;
+.card-body {
+    min-height: 22vh;
 }
 
 .post-date {
@@ -159,4 +165,15 @@ nav form input:focus {
 
 .scrollBtn:hover {
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 446px) {
+    .card-body {
+        min-height: 36vh;
+    }
+}
+@media only screen and (max-width: 305px) {
+    .card-body {
+        min-height: 38vh;
+    }
 }

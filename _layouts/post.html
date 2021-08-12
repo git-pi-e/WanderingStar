@@ -87,19 +87,19 @@ post_class: post-template
                 </ul>
             </div>
 
-            <div class="p-3 bg-light d-lg-flex text-center text-lg-left" style="position:relative;">
+            <div class="p-3 text-center bg-light d-lg-flex text-lg-left" style="position:relative;">
                 <svg class="ml-auto" viewBox="0 0 32 32" width="20" height="20"
                     style="position:absolute;top:1em;right:1em;">
                     <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
                 </svg>
 
-                <img class="rounded-circle m-2"
+                <img class="m-2 rounded-circle"
                     src="{% if author.avatar %}{{author.avatar}}{% else %} ../assets/images/anon.png {% endif %}"
                     width="100px" height="100px" alt="" style="object-fit: cover;">
 
                 <div class="p-2">
                     <h5>{{author.name}} {% if author.nick %}({{author.nick}}){% endif %}</h5>
-                    <span class="w-75">{{author.bio | truncate: 280}}</span>
+                    <span class="w-75">{% if author.bio %}{{author.bio | truncate: 280}}{% else %} A fellow Wandering Star and valuable member of SEDS Celestia {% endif %}</span>
                 </div>
             </div>
         </div>
