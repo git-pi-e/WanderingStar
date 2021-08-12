@@ -1,20 +1,19 @@
 ---
 layout: page
-title: About Frontier
+title: About 
 permalink: /about
 ---
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p> This is just a compilation of me writing down all the data I accumulate over time. The amount of information I recieve per day is too high to just remember. This will also help me refine my data sources and topics over time</p>
+<p> Wondered what mass actually is? Ever thought why light is both wave and matter? Fantasized about time travel? Had nerd dreams about black holes and the beauty inside it? Ever thought what is everything (or nothing)? It’s time to know what is beyond the wall. Climb aboard the wandering star, it’s time to explore and answer it all.</p>
 
-<h4>How to Write a Piece?</h4>
+<p>The Wandering Star is a blog maintained by SEDS Celestia, astronomy and astrophysics club at Birla Institute of Science and Technology, Goa. We, Celestians (as we call ourselves) aim to keep you updated about latest technological advancements, project updates, what ‘Celestians’ are upto and lots of articles about interesting topics!</p>
 
-<ul>
-    <li>Break the piece into Parts with appropriate headings</li>
-    <li>Cite everthing</li>
-</ul>
+<p>We shall post a new article every week. Stay tuned 🙂</p>
+
+<p>Come join us and be a ‘Wandering Star’.</p>
 
 </div>
 
@@ -23,7 +22,7 @@ permalink: /about
 <div class="sticky-top sticky-top-80">
 <h5>Help Out!</h5>
 
-<p>Write for frontier! Contact me and we can discuss on how to add more pieces</p>
+<p>Write for frontier! Contact me and we can discuss on how to add more pieces.</p>
 
 <a target="_blank" href="https://github.com/plutoniumm/frontier/README.md">Documentation</a>
 

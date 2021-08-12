@@ -94,7 +94,7 @@ post_class: post-template
                 </svg>
 
                 <img class="rounded-circle m-2"
-                    src="{% if author.avatar %}{{author.avatar}}{% else %}{{site.defualts.author.avatar}}{% endif %}"
+                    src="{% if author.avatar %}{{author.avatar}}{% else %} ../assets/images/anon.png {% endif %}"
                     width="100px" height="100px" alt="" style="object-fit: cover;">
 
                 <div class="p-2">

@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Suchetan R S
-tags: Science Space_tech SpaceRobotics Technology-in-space 
-category: Science Space_News SpaceRobotics
+tags: Science Space_Tech Space_Robotics Technology_in_Space 
+category: Science Space_News Space_Robotics
 type: Article
 image: https://i.imgur.com/i21mv89h.png
 ---
@@ -33,8 +33,8 @@ There have been many successful space tether missions in the past including the 
 
 #### References
 
-- [web.mit.edu | Rocket Principles](http://web.mit.edu/16.00/www/aec/rocket.html)
-- [web.wpi.edu | SPACE TETHERS: APPLICATIONS AND IMPLEMENTATIONS](https://web.wpi.edu/Pubs/E-project/Available/E-project-031207-235520/unrestricted/Space_Tethers_IQP.pdf)
-- [wikipedia.org | Hohmann transfer orbit](https://en.wikipedia.org/wiki/Hohmann_transfer_orbit#:~:text=Therefore%20the%20%CE%94v%20for%20the,7.73%20%3D%203.20%20km%2Fs)
-- [link.springer.com | Paper on A Brief Overview of Electrodynamic Tethers](https://link.springer.com/chapter/10.1007/978-94-011-2048-7_32#:~:text=For%20a%2020%20km%20tether,30%20kW%20can%20be%20generated)
-- [wikipedia.org | Space tether missions](https://en.wikipedia.org/wiki/Space_tether_missions)
+1. [web.mit.edu - Rocket Principles](http://web.mit.edu/16.00/www/aec/rocket.html)
+2. [web.wpi.edu - SPACE TETHERS: APPLICATIONS AND IMPLEMENTATIONS](https://web.wpi.edu/Pubs/E-project/Available/E-project-031207-235520/unrestricted/Space_Tethers_IQP.pdf)
+3. [wikipedia.org - Hohmann Transfer Orbit](https://en.wikipedia.org/wiki/Hohmann_transfer_orbit#:~:text=Therefore%20the%20%CE%94v%20for%20the,7.73%20%3D%203.20%20km%2Fs)
+4. [link.springer.com - Paper on A Brief Overview of Electrodynamic Tethers](https://link.springer.com/chapter/10.1007/978-94-011-2048-7_32#:~:text=For%20a%2020%20km%20tether,30%20kW%20can%20be%20generated)
+5. [wikipedia.org - Space Tether Missions](https://en.wikipedia.org/wiki/Space_tether_missions)

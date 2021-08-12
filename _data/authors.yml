@@ -2,16 +2,15 @@ Anonymous:
   nick        : Anon
   name        : Anonymous
   bio         : "A valuable voice of SEDS Celestia who wishes at the moment to remain a Dark Planet, away from its Sun and out of the range of any Telescope. But we still love them as much as any other planet"
+  avatar      : ../assets/images/anon.png
 
 Shriram Joshi:
   nick        : Shriramus
   name        : Shriram Joshi
-  bio         : "My voice is so awesome if I do a voiceover I can also play god. Its heavy and slow, its almost like I'm morgan Freeman. Ok so now I've ran out of things to add in a bio so I'm just saying random stuff ok don't angy plis"
 
 Ashutosh Gupta:
   nick        : Akash Jr
   name        : Ashutosh Gupta
-  bio         : "I ordered what?"
 
 Cornelius Fiddlebone:
   name        : Cornelius Fiddlebone
@@ -28,7 +27,7 @@ Abdul Jawad Khan:
   name        : Abdul Jawad Khan
 
 Aeishna Khaund:
-  nick        : Aeishna
+  nick        : aeiou
   name        : Aeishna Khaund
 
 Nikhil Bisht:
@@ -59,3 +58,19 @@ Avdhoot Bhandare:
 Sanika Chepe:
   nick        : Sanika
   name        : Sanika Chepe 
+
+Hareesh Nair:
+  nick        : Hareesh
+  name        : Hareesh Nair
+
+Afraj Shaikh:
+  nick        : Afraj
+  name        : Afraj Shaikh
+
+Gayatri:
+  nick        : Gayatri
+  name        : Gayatri Patankar
+
+Gaurav Iyer:
+  nick        : Gaurav
+  name        : Gaurav Iyer
