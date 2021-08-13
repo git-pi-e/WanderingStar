@@ -76,12 +76,16 @@ nav {
 .main-content {
 	background-color: rgb(243, 243, 243);
 }
+.footer-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .footer-links {
 	a {
-		font-size: 14px !important;
+		font-size: 15px !important;
 		color: #888 !important;
 		&:hover {
-			font-size: 14px !important;
+			font-size: 15px !important;
 			color: #a8f !important;
 			font-weight: 350;
 		}
@@ -163,13 +167,31 @@ nav {
 		opacity: 0.8;
 	}
 }
+@media only screen and (max-width: 305px) {
+	.card-body {
+		min-height: 38vh;
+	}
+}
+@media only screen and (max-width: 600px){
+	.footer-wrapper{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		.link-section{
+			text-align: center;
+		}
+	}
+}
 @media only screen and (max-width: 446px) {
 	.card-body {
 		min-height: 36vh;
 	}
-}
-@media only screen and (max-width: 305px) {
-	.card-body {
-		min-height: 38vh;
+	.footer-wrapper{
+		display: grid;
+		grid-template-columns: 1fr;
+		
+		.link-section{
+			text-align: center;
+			margin: 2px;
+		}
 	}
 }

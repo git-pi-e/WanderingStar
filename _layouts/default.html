@@ -29,14 +29,14 @@
         </span>
     </div>
 
-    <nav class="navbar navbar-dark navbar-expand-lg bg-light fixed-top nav-down position-sticky top-0">
+    <nav class="top-0 navbar navbar-dark navbar-expand-lg bg-light fixed-top nav-down position-sticky">
         <div class="container pr-0">
             <a class="navbar-brand" href="{{ site.baseurl }}/">{{site.name}}</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
                     class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarMediumish">
-                <ul class="navbar-nav ml-auto">
+                <ul class="ml-auto navbar-nav">
                     {% if page.url == "/" %}
                     <li class="nav-item active">
                         {% else %}
@@ -64,8 +64,8 @@
     <div class="main-content">{{ content }}</div>
     
     <footer class="footer">
-        <div class="p-2 m-1 row justify-content-around">
-            <div>
+        <div class="p-2 m-1 row justify-content-around footer-wrapper">
+            <div class="link-section">
                 <h5>Sitemap</h5>
                 <div class="d-flex flex-column footer-links">
                     <a href="/about">About</a>
@@ -77,7 +77,7 @@
                     <a href="tags">Posts by Tags</a>
                 </div>
             </div>
-            <div>
+            <div class="link-section">
                 <h5>Our Accounts</h5>
                 <div class="d-flex flex-column footer-links">
                     <a target="_blank" href="https://www.instagram.com/sedscelestia/">Instagram</a>
@@ -89,8 +89,7 @@
                     <a target="_blank" href="https://www.linkedin.com/company/seds-celestia/">LinkedIn</a>
                 </div>
             </div>
-
-            <div>
+            <div class="link-section">
                 <h5>Our Content</h5>
                 <div class="d-flex flex-column footer-links">
                     <a target="_blank" href="https://youtube.com/channel/UCuZ1RL7Qv5tKaQeWy28qhUw">Youtube</a>
@@ -109,8 +108,7 @@
                     <a target="_blank" href="https://breaker.audio/celestia-on-air">Breaker</a>
                 </div>
             </div>
-
-            <div>
+            <div class="link-section">
                 <h5>External Links</h5>
                 <div class="d-flex flex-column footer-links">
                     <a target="_blank" href="https://sedscelestia.org/">Main Website</a>
@@ -129,7 +127,7 @@
             <div class="text-center col-md-6 col-sm-6 text-lg-left">
                 Copyright © {{ site.time | date: "%Y" }} {{site.name }}
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">{{site.description}}</div>
+            <div class="text-center col-md-6 col-sm-6 text-lg-right">{{site.description}}</div>
         </div>
     </footer>
 </body>
