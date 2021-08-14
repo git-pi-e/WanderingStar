@@ -4,7 +4,7 @@ author: Aeishna Khaund
 category: Uncategorized
 tags: Lasers Observations Sky Skywatching Telescopes
 type: Blog
-image: assets/posts/2020/Yashraj-Milky_Way.jpg
+image: https://i.imgur.com/EIV5J6Oh.png
 ---
 If you are in the habit of taking a leisurely stroll past the Cricket Grounds after dinner, you know that sometimes, vague shapes can be seen moving around at the center of the grounds, in pitch darkness. If you ever stop to take a better look, you will also see green flashes of laser, pointing deep into the sky. And if you are reasonably well informed, you know that this is a Night Sky Observation by Celestia, in process.
 
@@ -59,3 +59,8 @@ Yes, Bluetooth speakers are a regular. Come over and fight for control over the 
 ## In Conclusion
 
 Come to the Observations. They may be more interesting than you imagine.
+
+**Header Image Credits:** Photo by [Phil Botha](https://unsplash.com/@philbotha?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/astrophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+**Blog Image Credits:** SEDS Celestia
+  
