@@ -4,7 +4,7 @@ author: Kaustubh Murudkar
 category: Messier_Series Observations
 tags: Clusters Comets Introduction Messier_Objects Messier_Series Observations Series Skywatching Stars
 type: Blog
-image: assets/posts/2020/MessierObjects2020.png
+image: https://i.imgur.com/nOOxRfPh.png
 ---
 
 ![Introduction to Messier Objects](../assets/posts/2020/MessierObjects2020.png)
@@ -18,11 +18,15 @@ Charles Messier was born on 26 June 1730 in Lorraine, France. At the age of 14 h
 During those times, finding out a comet made an astronomer quite popular among his/her peers. And you even got to name that comet! On his quest to find a comet, Messier realized that there were many objects that could be mistaken to be comets, but were stationary. He felt the need to document these objects so that they will not be mistaken by him (or others) as comets. Thus, began the Messier catalogue with its first entry being the Crab Nebula (M1) in 1758.
 
 ![Crab Nebula](https://i.imgur.com/NOpxJYbh.png)\
-*Crab nebula*
+*Crab nebula*\
+[Credits: NASA, ESA, J. Hester and A. Loll (Arizona State University)](https://www.nasa.gov/feature/goddard/2017/messier-1-the-crab-nebula)
+{: .link-desc}
 
 ***Fun Fact- Messier actually found out a couple of genuine comets when he was trying to catalogue non-cometary objects***
 
 ![Charles Messier](https://i.imgur.com/GPfFiMkh.png)\
+[Ansiaux (1729—1786), Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Charles_Messier.jpg)
+{: .link-desc}
 *Doesn’t he look a bit goofy XD?*
 
 ## Messier Objects : Our Deep Sky Companions…
@@ -34,6 +38,8 @@ So by now, many of you readers might have a question that- Yo this stuff is cool
 Allow me to explain, dear reader. You see, what Messier wanted was to create a list of "nuisances" while searching for comets. Turns out these nuisances were in fact some of the brightest objects in the night sky! Such a list was never made before, and when it was, we kinda stuck to it! Having a list of deep sky objects to watch was a boon to the amateur astronomers. Any person with a decent telescope can watch these objects in the clear night sky with sufficient clarity. And the experience of watching something quite literally "out of this world" was pretty damn exciting!
 
 ![Messier Catalogue](https://i.imgur.com/2i67Xfyh.png)\
+[Credits: Mike Keith, 2014](http://cosmicneighbors.net/PeriodicMessier.htm)
+{: .link-desc}
 *The Messier catalogue is so popular that there are even periodic tables of it xP*
 
 ### What can you expect from the later articles in this series?
@@ -43,4 +49,8 @@ In the next articles in this series, we will be going through some of the most p
 I hope this introductory article made you readers excited of what’s about to come!
 
 ![Comic](https://i.imgur.com/bjU2hTyh.png)\
+[Src: MonSFFA Astronomical Cartoons](http://www.monsffa.ca/?attachment_id=1512)
+{: .link-desc}
 *Aww, that caveman didn’t know about Messier objects!*
+
+**Header Image Credits:** [NASA, ESA, the Hubble Heritage Team (STScI/AURA) and R. Gendler (for the Hubble Heritage Team); Acknowledgment: J. GaBany](https://www.nasa.gov/feature/goddard/2017/messier-106)

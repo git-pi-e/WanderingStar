@@ -4,14 +4,15 @@ author: Shriram Joshi
 tags: Observations Astrophotgraphy Beginner Skywatching Camera
 category: "Uncategorized"
 type: Article
-image: https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg
+image: https://i.imgur.com/aysYyzOh.png
 ---
 \
 The night sky can be considered as one of the most magnificent spectacles that we can experience every night. The twinkling stars, the bright moon and the cold yet exciting breeze all make the experience of stargazing literally out of the world. However nowadays as many of us live in populated cities where it is almost impossible to escape the light pollution it is very difficult to view the night sky at its complete beauty. In such cases devices like the DSLRs or even smart phones can come to our rescue.
 
 ![Credit/copyright: Keith Quattrocchi of Lost Valley Observatory](https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg)
 \
-*Credit/Copyright: Keith Quattrocchi of Lost Valley Observatory*
+Credit/Copyright: [Keith Quattrocchi of Lost Valley Observatory](https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg)
+{: .link-desc}
 
 Astrophotography is one of the most interesting, yet a very unpopular hobby one can take up. In this article we will help you get started with the basics of how to spot and photograph night sky objects using nothing but your mobile phones. Most smartphones come with Camera applications that have a “pro” mode that lets you control most of the parameters of a photograph. If not, there are apps available on the app stores that let you do the same. Along with a Camera app that has a “pro” mode one might also need a night sky map application. These apps help you locate stars, constellations, and planets. Once you have these apps ready it is time to dive into the basics of photography. The three pillars of photography are the ISO, aperture and shutter speed/exposure time. We will go through these briefly one by one. You can find the formal definitions of these online however in this article we will discuss how these different parameters affect your image.
 
@@ -34,3 +35,5 @@ Src: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Windflower-0523
 {: .link-desc}
 
 Some of the key things to follow while doing astrophotography include, ensuring that there is no light directly falling on your camera. This will create a lot of noise in your pictures. It is good to find a spot where there is minimum light from any sort of light sources. A terrace is an ideal spot. Another thing to look out for is using a good support for your camera. Tripods do the job better. In some cases, to reduce the shake from your own hand it is handy to use 5 or 10 second timers. This gives your tripod or support some time to dampen the shake from your button press. You can experiment with all sorts of settings to find out the best combination for the conditions you are shooting in. It always helps to take some time before starting to get your settings adjusted. For more information you can always go through the material and videos available online.
+
+**Header Image Credits:** Photo by [Usukhbayar Gankhuyag](https://unsplash.com/@usukbayer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyTex) on [Unsplash](https://unsplash.com/s/photos/astrophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
