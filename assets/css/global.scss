@@ -73,12 +73,25 @@ nav {
 .navbar-brand {
 	color: #000 !important;
 }
-.main-content {
+.section-title {
+	padding-top: 19px;
+}
+.featured-posts{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.recent-posts {
+	background-color: rgb(243, 243, 243);
+}
+.bottompagination{
 	background-color: rgb(243, 243, 243);
 }
 .footer-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+	.link-section{
+		text-align: center;
+	}
 }
 .footer-links {
 	a {
@@ -87,26 +100,26 @@ nav {
 		&:hover {
 			font-size: 15px !important;
 			color: #a8f !important;
-			font-weight: 350;
 		}
 	}
 }
 .author {
-	font-style: italic;
-	font-size: 0.8;
-	color: #888;
 	text-align: left;
 }
 .post-details {
 	flex-direction: row;
 	display: flex !important;
 	justify-content: space-between !important;
-	color: #aaa;
-	font-size: 0.8;
+	font-size: .95rem;
+    font-weight: 400;
+	color: #888;
 	position: absolute;
 	bottom: 0;
 	width: 90%;
 	margin-top: 2px;
+}
+.post-content {
+	padding-bottom: 10px;
 }
 .card-body {
 	min-height: 22vh;
@@ -167,23 +180,20 @@ nav {
 		opacity: 0.8;
 	}
 }
-@media only screen and (max-width: 305px) {
+@media only screen and (max-width: 400px) {
 	.card-body {
-		min-height: 38vh;
+		min-height: 50vh;
 	}
 }
 @media only screen and (max-width: 600px){
 	.footer-wrapper{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		.link-section{
-			text-align: center;
-		}
 	}
 }
-@media only screen and (max-width: 446px) {
+@media only screen and (max-width: 450px) {
 	.card-body {
-		min-height: 36vh;
+		min-height: 40vh;
 	}
 	.footer-wrapper{
 		display: grid;
