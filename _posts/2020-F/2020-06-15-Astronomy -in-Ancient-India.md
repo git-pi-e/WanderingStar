@@ -4,7 +4,7 @@ author: Sanika Chepe
 category: Uncategorized
 tags: Ancient Aryabhata Bhaskara_I Brahmagupta History Jantar_Mantar Lagadha Physics Sawai_Jai_Singh Science Varahmihira
 type: Blog
-image: assets/posts/2020/AncientAstronomy.jpeg
+image: https://i.imgur.com/qdChnB2h.png
 ---
 ![Astromony in Ancient India](../assets/posts/2020/AncientAstronomy.jpeg)
 
@@ -22,32 +22,39 @@ Now, let us review the breakthroughs made by ancient Indian astronomers. The maj
 Lagadha was the author of Vedānga Jyotiṣa, the earliest astronomical text. Astronomy was a discipline of Vedanga or one of the "secondary disciplines" associated with the study of the Vedas. The Vedānga Jyotiṣa has connections with Indian astrology (or Jyotiṣashastra) and lists several astronomical attributes generally applied for timing social and religious events. It also details astronomical calculations along with significant aspects of the time and seasons, including lunar months, solar months, and their adjustment by a lunar leap month of Adhimāsa (an extra month added to the calendar after every 6years). Ṛtús also described as yugāṃśas (or parts of the yuga or a conjunction cycle) are discussed as well.
 
 ![Vedanga Jyotisha](https://i.imgur.com/XFnPPX8h.png)\
-*Vedanga Jyotisha*
+*Vedanga Jyotisha*\
+*Courtesy: "Sarwang", Published by Adivasi Lok Kala Evam Boli Vikas Academy, Madhya Pradesh Sanskriti Parishad, India.*
 
 Āryabhaṭa was the first of the principal mathematician-astronomers from the classical age of Indian mathematics and Indian astronomy. His works include Āryabhatīya and the Āryabhaṭasiddhānta, which greatly influenced the Indian astronomical tradition and influenced several neighboring cultures through translations. He explicitly mentioned that the Earth rotates about its axis daily and that the apparent movement of the stars westward, is a relative motion caused due to its rotation, contrary to the then-prevailing view that the sky rotated. He stated that the Earth was spherical, with a circumference of 39,968km (24,835 miles), just off the currently accepted value of 40,074km by an incredible 0.27%! He calculated the rotation of the Earth referencing the fixed stars (a.k.a sidereal rotation) as 23 hours, 56 minutes, and 4.1 seconds; the modern value is 23:56:4.091. Similarly, his value for the sidereal year at 365.25858 days is an error of 3 minutes and 20 seconds over the length of a year (365.25636 days). Such accuracy in his calculations is astonishing, considering the lack of an accurate device to measure time or a standard unit of length, during those times. Solar and Lunar eclipses were scientifically explained by him in terms of shadows cast by and falling on Earth. Among other predictions, he even provides the calculations for the size of the eclipsed part during an eclipse! He also mentioned that the Moon and planets shine by reflected sunlight. He was one of the first to assign the start of each day to midnight. Damn! That's one long list! We haven't even talked about his mathematical works! After all, he invented Zero!
 
 ![Aryabhata](https://i.imgur.com/V86fhwLh.png)\
-*Aryabhata*
+*Aryabhata*\
+*Illustration: Alamy*
 
 Brahmagupta, in his works, reinforced Āryabhaṭa's idea of a day beginning at midnight. He calculated the instantaneous motion of a planet, gave correct equations for parallax, and some information related to the computation of eclipses. He also theorized that all bodies with mass are attracted to the Earth. (Around 665 CE, approximately 2351 years before Newton proposed the Law of Gravitation in 1687 AD!)
 
 ![Brahmagupta](https://i.imgur.com/wVJMgdfh.png)\
-*Brahmagupta*
+*Brahmagupta*\
+*Src: Unknown*
 
 Varāhamihira was an astronomer and mathematician who studied Indian astronomy as well as the many principles of Greek, Egyptian, and Roman astronomical sciences. His treatise is a summary drawing from different knowledge systems.
 
 ![Varahmihira](https://i.imgur.com/ZkD4XzIh.png)\
-*Varahmihira*
+*Varahmihira*\
+Src: [Bharatkosh](https://en.bharatdiscovery.org/w/images/d/d4/Varahmihir.jpg)
+{: .link-desc}
 
 Bhāskara I authored the astronomical works Mahābhāskariya (Great Book of Bhāskara), Laghubhaskariya (Small Book of Bhaskara), and the Aryabhatiyabhashya —a commentary on the Āryabhatīya written by Āryabhaṭa. Planetary longitudes, heliacal rising and setting of the planets, conjunctions among the planets and stars, solar and lunar eclipses, and the phases of the Moon are among the topics Bhāskara discusses in his astronomical treatises.
 
 ![Bhāskara I](https://i.imgur.com/BE0VOyWh.png)\
-*Bhāskara I*
+*Bhāskara I*\
+*Src: Unknown*
 
 Numerous other astronomers of the ancient and middle ages have made valuable additions to the discipline of Astronomy. Some of their devices can even be seen today, like the famous Jantar Mantar observatories in Jaipur, New Delhi, Ujjain, Mathura, and Varanasi constructed by Sawai Jai Singh (1688–1743 CE).
 
 ![Jantar Mantar, Jaipur and Sawai Jai Singh](https://i.imgur.com/GVDZHNqh.png)\
-*Jantar Mantar, Jaipur, and Sawai Jai Singh*
+*Jantar Mantar, Jaipur, and Sawai Jai Singh*\
+*Src: Unkown*
 
 It is very noteworthy that Indian astronomers discovered all these facts 1,500 years ago, i.e., ten centuries before Copernicus and Galileo, the pioneers of European astronomy. India had a significant influence on other civilizations' early development in the field. They have left behind a great legacy and motivate today's astronomers to keep exploring and experimenting. I know that there are numerous exciting topics in Modern astronomy to write an article on, but this is a topic that exceedingly fascinates me and fills me with profound national pride. I think that one of Mr. Einstein's quotes sums up my motive to write this article pretty well: "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning."
 
@@ -60,3 +67,6 @@ It is very noteworthy that Indian astronomers discovered all these facts 1,500 y
 3. [Wikipedia - Indian Astronomy](https://en.wikipedia.org/wiki/Indian_astronomy)
 
 4. [Wikipedia - Aryabhata](https://en.wikipedia.org/wiki/Aryabhata)
+
+**Header Image Credits:** [Flickr](https://www.flickr.com/photos/cirque-du-pablo/2254757627/)\
+This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License.

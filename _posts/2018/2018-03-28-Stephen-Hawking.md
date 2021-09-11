@@ -23,3 +23,5 @@ Stephen's expectation from life when he was diagnosed with ALS dropped to zero. 
 And I'd like to end this blog with another one of his quotes, "My goal is simple. It is a complete understanding of the universe, why it is as it is and why it exists at all."
 
 So here we bid adieu to the man who inspired us all as he leaves us for his infinite journey through the cosmos.
+
+**Header Image Credits:** BBC/RICHARD ANSETT

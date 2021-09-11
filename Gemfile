@@ -9,4 +9,5 @@ group :jekyll_plugins do
     gem 'kramdown'
     gem 'kramdown-parser-gfm'
     gem 'rouge'
+    gem 'webrick'
 end

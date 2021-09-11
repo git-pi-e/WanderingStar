@@ -4,7 +4,7 @@ author: Avdhoot Bhandare
 category: Mythology
 tags: History Mythology Skywatching Stories Zodiac
 type: Blog
-image: https://i.imgur.com/Lx5IfQOh.png
+image: https://i.imgur.com/Ienn3Iqh.jpg
 ---
 
 ## The Zodiac
@@ -16,6 +16,10 @@ The zodiac constellations are those constellations that the sun passes through o
 ### Aries, the Ram
 
 Phrixus and Helle were the Twin children of a Boeotian king. The children had a stepmother who hated them and consequently concocted a plan to have them sacrificed to the gods. Just as they were about to be killed, the gods had pity on the children and sent a magical flying ram with golden wool to save them. The ram took them to Colchis, but Helle fell off into the ocean, and that part of the Aegean sea is known as Hellespont, or the sea of Helle in her memory. After reaching Colchis, Phrixus sacrificed the ram to the gods and presented its fleece to the king of Colchis, and this was known as the Golden Fleece, with powerful healing properties which was the quest of Jason and the Argonauts. The ram was immortalized is the night skies by the gods in honor of his sacrifice, and that constellation is now known as Aries, the ram.
+
+![Zodiac constellations](https://i.imgur.com/GB102Lth.png)
+*Zodiac Constellations*\
+*Image: Till Credner (CC BY-SA 4.0)*
 
 ### Taurus, the Bull
 
@@ -62,3 +66,5 @@ Ganymede was the young prince of Troy and was one of the most handsome boys in a
 During the Great War between the gods and the titans, monster Typhon ambushed the gods and threatened to destroy all of them. All the terrified gods transformed into small animals and darted away, except Aphrodite, the goddess of love, and her son Eros, because they had no animal forms. As they were cornered beside a river, two fish agreed to help Aphrodite and Eros escape into the river, as Typhon was a monster of fire and couldn’t enter water. To prevent them from getting lost, the two fish tied their tails together and safely carried the two gods to safety. In recognition of their invaluable help, the constellation of Pisces was made in their honour.
 
 The mythology of these constellations, although very fanciful and hardly true, always fascinate me. These stories turn random patterns of unrelated stars in the sky into living, moving characters in a nail-biting story, taking us into the past when chimeras and gorgons roamed the land, and brave, mighty heroes went on conquests to rid the Earth of such hideous creatures. It has led me to read about all the other myths and legends associated with the other constellations, and I hope that all of you will also enjoy the myths and stories as much as I did.
+
+**Header Image Credits:** Photo by [Vedrana Filipović](https://unsplash.com/@vedranafilipovic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/zodiac-constellation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

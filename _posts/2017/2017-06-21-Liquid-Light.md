@@ -34,7 +34,7 @@ As you can see below, the flow of polaritons is disturbed like waves under regul
 
 ![superfluid](https://i.imgur.com/EWVcwrj.jpg)
 
-The flow of polaritons encounters an obstacle in non-superfluid (top) and superfluid (bottom). 
+The flow of polaritons encounters an obstacle in non-superfluid (top) and superfluid (bottom).\
 Credit: Polytechnique Montreal
 
 “In a superfluid, this turbulence is suppressed around obstacles, causing the flow to continue on its way unaltered,” says Kéna-Cohen.
