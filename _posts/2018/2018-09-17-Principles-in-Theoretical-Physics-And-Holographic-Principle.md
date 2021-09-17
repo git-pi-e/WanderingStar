@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  Principles In Theoretical Physics And Holographic Principle
 author: Anonymous
 tags: Theoretical_Physics Holographic Physics
 category: Uncategorized
@@ -22,11 +21,11 @@ For our purpose, let us restrict the system to a finite region of volume V and b
 
   $$N =ln(n)= lndimH$$
 
-For a harmonic oscillator , $$N → ∞$$ . Here one can also try to define N in terms of number of bits of information($$1bit = ln(2)$$). Suppose we have a system of 10 spins which can take 2 independent values, then $$n = 2^{10}$$           
+For a harmonic oscillator , $$N → ∞$$ . Here one can also try to define N in terms of number of bits of information($$1bit = ln(2)$$). Suppose we have a system of 10 spins which can take 2 independent values, then $$n = 2^{10}$$
 
   $$N = 10 ln2 or N =10 bits.$$
 
-## PRINCIPLE:
+## PRINCIPLE
 
 Fundamental theories in physics, in general, have been formulated and modified based on recognition of new principles emerging from some keen observations of things happening around us and through various thought experiments and processes involving different conditions.
 
@@ -48,10 +47,10 @@ In general, the information can be encoded in many ways. Though Holographic prin
 
 ## GLOSSARY
 
-**Information theory**: A branch of mathematics that overlaps into communications engineering, biology, medical science, sociology, and psychology. It is devoted to the discovery and exploration of mathematical laws that govern the behavior of data as it is transferred, stored, or retrieved.
+**Information theory:** A branch of mathematics that overlaps into communications engineering, biology, medical science, sociology, and psychology. It is devoted to the discovery and exploration of mathematical laws that govern the behavior of data as it is transferred, stored, or retrieved.
 
-**Micro-canonical ensemble theory**: An ensemble that is used to represent the possible states of a mechanical system which has an exactly specified total energy.
+**Micro-canonical ensemble theory** An ensemble that is used to represent the possible states of a mechanical system which has an exactly specified total energy.
 
-**Hilbert Space**: A vector space equipped with an inner product, which can be thought of as a generalization of the dot product in Euclidean space, with the additional property that the metric coming from the inner product makes the vector space into a complete metric space.
+**Hilbert Space:** A vector space equipped with an inner product, which can be thought of as a generalization of the dot product in Euclidean space, with the additional property that the metric coming from the inner product makes the vector space into a complete metric space.
 
-**Asymptotic flat space**: A Lorentzian manifold in which, roughly speaking, the curvature vanishes at large distances from some region.
+**Asymptotic flat space:** A Lorentzian manifold in which, roughly speaking, the curvature vanishes at large distances from some region.

@@ -1,6 +1,7 @@
 .DS_Store
 .trashes
 .trash
+.vscode
 
 _site/
 .sass-cache/

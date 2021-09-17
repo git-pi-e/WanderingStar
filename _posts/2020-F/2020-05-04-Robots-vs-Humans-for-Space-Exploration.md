@@ -4,17 +4,22 @@ author: Ashutosh Gupta
 category: Science Space_News Space_Robotics
 tags: Exploration Robotics Science Technology
 type: Blog
-image: https://i.imgur.com/SomxnJ5h.png
+image: https://i.imgur.com/nbExLq9h.jpg
 ---
 
 ![Robots vs Humans](https://i.imgur.com/SomxnJ5h.png)\
 *“The Earth is the cradle of humanity, but mankind cannot stay in the cradle forever.”*
 
+Src: [Wired](https://www.wired.com/images_blogs/wiredscience/2012/04/humansrobots.jpg)
+{: .link-desc}
+
 Since the beginning of time, man has been fascinated with the stars and the sky. More and more people are coming up with new ways on how to study the universe. Hence, the more time spent studying space, the more that we will know. Space exploration has allowed us to expand our technology, foster curiosity in humans, discover new worlds, and most importantly push even further to find life on a new planet. Historically, space exploration leaped when the man reached the moon, and it was followed by numerous crewed space missions. On 20 November 1998 history was created when the International Space Station (ISS) launched. From that day forward, ISS has helped immensely in developing our current knowledge of space. Most astronomers will tell you that virtually anything a human can do on another planet, a robot can do, only cheaper and without the risk of losing a life, so lately there has been increased support for sending exclusive robots in space.
 
 ## Why Robots?
 
-![Robots](https://i.imgur.com/jXGGIrwh.png)
+![Robots](https://i.imgur.com/r4G1sK0l.jpg)
+[NASA’s R5 aka Valkyrie](https://www.nasa.gov/feature/r5/)
+{: .link-desc}
 
 Robots are critical for expanding humanity off-planet. They help not just with exploring distant parts of the universe, but also with advancing our economic activity into Earth orbit. A significant advantage of space robots is that they need neither food nor drink and can support very inhospitable conditions. More important still, although expensive to design and produce, their loss is always preferable to that of an astronaut. Sending a robot to space is much cheaper as compared to sending a human. Robots can also do things that would be too risky or impossible for astronauts. They can tirelessly do the same work with accuracy up to nanometers, which is not possible for a human to do in harsh conditions.
 
@@ -30,7 +35,9 @@ Criticism of human spaceflight comes from many quarters. Some people point to th
 
 ## Why Humans?
 
-![Astronaut on Moon](https://i.imgur.com/P0RXW1Kh.png)
+![Astronaut on Moon](https://i.imgur.com/OuD5ofel.png)\
+*Astronaut Edwin E. Aldrin Jr., lunar module pilot, poses beside the deployed flag of the United States during the Apollo moon landing, July 20, 1969.*\
+*REUTERS/NASA/Handout*
 
 Humans hold several advantages over robots. They can make quick decisions in response to changing conditions or discoveries, rather than waiting for time-delayed instructions from Earth. They are more mobile than current robot explorers: The Apollo 17 astronauts covered more than 22 miles in three days, a distance that has taken the Mars Opportunity rover eight years to match. Humans can drill for samples deep underground and deploy large-scale geologic instruments, something that no rover has achieved on another body.
 
@@ -51,3 +58,6 @@ In terms of sheer scientific output, crewed exploration of outer space has a goo
 Some suggested solutions to this problem are making more telepresence robots and giving exclusive control to humans. But a significant challenge for this is the time latency. There is a time latency of 10 minutes between the Earth and Mars, making true telepresence very difficult. Also, no real-time imaging system developed to date can match human vision, which provides 20 times more resolution than a video screen.
 
 There are still many challenges in making humans and robots work as partners for space exploration. So we could conclude that the battle between humans and robots for the starring role in the next chapter of space exploration is still unfinished.
+
+**Header Image Credits:** Photo by [Science in HD]("https://unsplash.com/@scienceinhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on [Unsplash]("https://unsplash.com/s/photos/robots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")
+  

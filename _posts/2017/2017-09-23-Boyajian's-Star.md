@@ -13,12 +13,16 @@ Kepler space program was launched by NASA to find Earth like planets in other so
 When the Boyajian’s Star was first observed, the data of the transit suggested that whatever passed from in front of the star had the size of Jupiter. Now, normally a transit lasts for a few hours, but this transit lasted for weeks and it was asymmetric.
 
 ![Jupiter’s Transit](https://i.imgur.com/8ZqsQlyl.jpg)\
-*Figure 1: Jupiter’s Transit*
+*Figure 1: Jupiter’s Transit*\
+*Hot Jupiter light curves from Kepler (red, bottom) and K2 (blue, top). K2 data is dominated by jagged noise that was not present during the original Kepler mission.*\
+Src: [K2 data](https://blog.planethunters.org/2015/01/)
+
 
 In the transit, the dip observed is rarely more than 1 percent of the intensity of star light. On March 2011, a 15 percent dip was observed from the transit of Boyajian’s star. Then in February 2013, a series of dips were observed. Some lasted 1-2 days, some for weeks, for a period of 100 days, at last when, the Kepler mission ended. This time, the dips were almost 20 percent i.e. the object had an area of one thousand times that of Earth.
 
 ![The transit of object orbiting the Boyajian’s star](https://i.imgur.com/e8k12Qwl.png)\
-*Figure 2: The transit of object orbiting the Boyajian’s star*
+*Figure 2: The transit of object orbiting the Boyajian’s star*\
+*Credit: T. Boyajian & team/MNRAS*
 
 Various hypotheses were proposed to explain the data collected by Kepler. The first suggested the presence of Protoplanetary debris disk. This only happens when a star is young, which this star was not. The second was Catastrophic collision, very similar to Earth-Moon formation. If it was indeed the case, then a glow must have been observed due to the heating of the debris from the heat of the sun in the form of infrared rays, which was not observed. As both the hypothesis failed to explain the data, they were rejected.
 
@@ -29,6 +33,9 @@ Due to the 20% dip, the object must be as large as the star itself, so that rule
 This is the part where it gets interesting. Let’s first see a picture, a representation of what is proposed as a possible explanation.
 
 ![Imgur](https://i.imgur.com/S8Lwck4l.png)\
-*Figure 3: Alien Mega structure*
+*Figure 3: Alien Mega structure*\
+*Credit: Danielle Futselaar/SETI International*
 
 What we see here is a giant mega structure around the star. The explanation that was proposed says that it is possible that an advanced alien civilization, which has already exhausted its planet’s resources, is using the star as its energy source and has built giants solar panels around the star. The size of a single component of this structure is around 25 million miles. This will explain the deep dips and the asymmetry of the transit. But this is still only a hypothesis and a very unlikely one at that. But who knows, this maybe the first sign of an intelligent species outside our planet. We will let the future decide that.
+
+**Header Image Credits:** NASA/JPL-Caltech
