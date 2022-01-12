@@ -22,17 +22,22 @@ Exoplanets can be found by using various techniques viz Radial Velocity method, 
 
 through its atmosphere. Scientists can analyse the colours of this light to get precious clues about its composition. Using this method, they’ve found everything from methane to water vapor on other planets. NASA’s Kepler mission (2009 to 2013) successfully discovered thousands of exoplanets by this amazingly simple method of transit, a few of which even lie in the habitable zone, where life might be possible. We now know that there are thousands of exoplanets out there and NASA’s TESS (Transiting Exoplanet Survey Satellite) launched in April 2018, continues to search for many more in an area 400 times larger than that covered by the Kepler mission!
 
-![Transit Method](https://i.imgur.com/vWGLqSd.jpg)
+![Transit Method](https://i.imgur.com/vWGLqSd.jpg)\
+[Credits: ESA](https://sci.esa.int/web/gaia/-/58800-transiting-exoplanet)
+{: .link-desc}
 
 **Direct Imaging** is a relatively newer method that involves taking pictures of the planets. However, this is quite a task because firstly, they are very far away and secondly, they are millions of times dimmer than the stars they orbit. We are therefore designing instruments to block out the glare of the stars so that we can get a better look at the objects around the stars that might be exoplanets. There are two main methods astronomers use to block the light of a star. One, called **Coronography**, uses a device inside a telescope to block light from a star before it reaches the telescope’s detector. Coronagraphs are now being used to directly image exoplanets from ground-based observatories. Another method is to**use a starshade**, a device that’s positioned to block light from a star before it even enters a telescope. For a space-based telescope, a Starshade would be a separate spacecraft, designed to position itself at just the right distance and angle to block the light from the star. Future direct-imaging instruments might be able to take photos of exoplanets that would allow us to identify atmospheric patterns, oceans, and landmasses.
 
-![Direct Imaging](https://i.imgur.com/GuBefXF.jpg)
+![Direct Imaging](https://i.imgur.com/GuBefXF.jpg)\
+[Credits: Cornell University](https://events.cornell.edu/event/exploring_exoplanets_with_a_starshade_mission)
+{: .link-desc}
 
 Other methods for searching exoplanets include **Gravitational microlensing and Astrometry**. Gravitational microlensing involves bending and focussing of light from a distant star by gravity as a planet passes between the star and Earth while The underlying principle of Astrometry is, the orbit of a planet can cause a star to wobble around in space about nearby stars in the sky.
 
 <div class="row">
 <div class="column">
 <img src="https://i.imgur.com/Znbxq5U.jpg" alt="Microlensing" width="200%" float="left"/>
+<a href="https://commons.m.wikimedia.org/wiki/File:Gravitational_micro.jpg">Src: Wikimedia Commons</a>
 </div>
 <div class="column">
 <img src="https://i.imgur.com/S9wjtu3.jpg" alt="Astrometry" width="100%" float="right"/> 
@@ -47,3 +52,5 @@ References:
 
 - <https://exoplanets.nasa.gov/what-is-an-exoplanet/about-exoplanets/>
 - <https://spaceplace.nasa.gov/all-about-exoplanets/en/>
+
+**Header Image Credits:** [ESA/Hubble, M. Kornmesser](https://www.spacetelescope.org/news/heic1916)

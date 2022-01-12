@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Understanding Telescopes and Binoculars-Part3
-author: Avdhoot Bhandare, ex-Observations Head, SEDS Celestia
+author: Avdhoot Bhandare
 tags: Skywatching Telescopes Optical_aid Observations Coordinate_system
 category: Uncategorized
 type: Article
@@ -16,9 +16,10 @@ Naw, man, I’m just kidding, you don’t need to be that smart to understand ce
 
 Since you’ve read the first two articles (I hope), you know what binoculars and telescopes are, and you have a rough idea of how they work. You must also have noticed that I skipped explaining what mounts are. That was because, to understand mounts, you need to understand the directions of the sky. Similar to how you would direct a person to the nearest post office, “take a left here, go straight for a couple of minutes, another right, and you’re there,” you also need directions for the sky right? But it’s kinda complicated when you try that with the stars. I mean, how do you tell someone where a star exactly is in the sky?
 
-![Eq.Co-ord Sys](https://i.imgur.com/onRnXJF.gif)
-
-*Equatorial Co-ordinate system*
+![Eq.Co-ord Sys](https://i.imgur.com/onRnXJF.gif)\
+*Equatorial Co-ordinate system*\
+[Credits: The SAO Encyclopedia of Astronomy](https://astronomy.swin.edu.au/cosmos/e/equatorial+coordinate+syste)
+{: .link-desc}
 
 Turns out, there are many ways to do that, but we’ll stick to the two most common methods. First, imagine the co-ordinate system. Grid lines on the earths surface. Next, think of a big, clear glass globe surrounding the earth, through which you can see the entire sky, each and every star and cluster, everything. With me so far? Now, take your grid lines, and just expand them outwards till they sit on the clear glass globe. What do you see now? You see little squares in the sky, exactly like the ones you see on a map of the earth! Just like that, you’ve portioned the entire, messy night sky into neat little cubes.
 
@@ -29,13 +30,15 @@ Why is this so widely used and important, sensei, you may ask. Well, for several
 There are many, many little intricacies that one needs to understand about this system, but it’s impossible to tell them all here. I quite strongly suggest that you go and watch a couple YouTube videos to understand how exactly this system works, and you’ll understand it much better.
 
 
-![check](https://i.imgur.com/owS4gos.gif)
-\
+![RA/Dec System](https://i.imgur.com/owS4gos.gif)\
 *Detailed RA/Dec System*
+
 Anyway, moving on to the second system. You may remember that I was saying that it’s stupid and narcissistic to want to be the center of the universe (well I might not actually have said that, but I mentioned the 16th century Church, so all that goes without saying). So, umm, now say that you’re such a self centered prick (just say it, I’m not saying you are one, you know. Probably). Okay, so are you in that frame of mind? Great. Now, take the glass, grid lined globe we had in the first system, and instead of centering it around the Earth, center it around yourself. That’s it, basically. Your horizon is now the “equator” of this globe, and the “prime meridian” is the North South line. Pretty easy, huh?
 
 ![*Alt-Az System*](https://i.imgur.com/9o69fSb.png)\
-*The Horizontal Coordinate System*
+*The Horizontal Coordinate System*\
+[Credits: Time and Date AS](https://www.timeanddate.com/astronomy/horizontal-coordinate-system.html)
+{: .link-desc}
 
 This system, called the horizontal, topocentric, or **Alt-Az system** (Altitude-Azimuth System), is much simpler and convenient to use. The angle that an object makes in the sky with the horizon is called the Altitude of the object. The “latitude” of this globe, if you will. Secondly, the Azimuth is the “longitude” of this object measured from the North-South circle on this sphere. Now that we got that out of the way, let’s focus on the peculiarities of this system.
 First off, you may have realized that half the sphere is inside the Earth. Well, actually not half, a tiny whit less than that because of the earths curvature, but for once let’s assume that your location on the earth is a flat plane (Flat earth society has entered the chat. Sigh). This fact doesn’t really concern us, because all we care about is the half above, right? Secondly, an important fact to understand is that this system is in the viewers frame of reference, that is, it makes it as convenient as possible for the viewer. It stays put, as the night sky rotates around us. As you might imagine, the co-ordinates of each object in the sky changes with time, and hence it will be quite difficult (read impossible) for two people to collaborate with this system. Also, the co-ordinates will vary with each and every location on the earth, and it is very dependent on an app or website from which you can find out the exact co-ordinates for an object at your exact location and time.

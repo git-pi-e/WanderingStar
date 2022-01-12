@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "M51: WHirlpool and Co."
+title:  "M51: Whirlpool and Co."
 author: Aeishna Khaund
 tags: Observations Whirpool_galaxy Spiral_galaxy Messier-Series
 category: "Uncategorized"

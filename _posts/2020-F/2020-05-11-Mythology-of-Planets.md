@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  The Mythology of Planets
-author: Avdhoot Bhandare,ex-Observations Head, SEDS Celestia
+author: Avdhoot Bhandare
 tags: Mythology
 category: Uncategorized
 type: Article

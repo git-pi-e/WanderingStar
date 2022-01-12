@@ -12,7 +12,9 @@ The Pleiades star cluster is also known as the Seven Sisters or M45. It is visib
 
 It is an example of an open star cluster, a group of stars born around the same time from a gigantic cloud of gas and dust. The brightest stars in the formation glow a hot blue and formed within the last 100 million years. With life spans of just a few hundred million years, they are incredibly luminous and will burn out rapidly, far less than the billions of years our sun will enjoy.
 
-![Pleiades star cluster](https://i.imgur.com/GIWxodV.png)
+![Pleiades star cluster](https://i.imgur.com/GIWxodV.png)\
+[Credits: NASA, ESA, AURA/Caltech, Palomar Observatory](https://hubblesite.org/contents/media/images/2004/20/1562-Image.html?Topic=104-stars-and-nebulas&keyword=pleiades)
+{: .link-desc}
 
 The star cluster takes its English name from the legends of Greece. The Pleiades are the seven daughters of Atlas, the Titan king, and Pleione, the ocean nymph. Atlas revolted against Zeus, the king of the gods, during an ancient battle, who then sentenced his opponent to keep the heavens forever on his shoulders. The sisters were so sad that Zeus allowed them a place in the sky to be close to their father.
 
@@ -20,9 +22,10 @@ The star cluster takes its English name from the legends of Greece. The Pleiades
 
 The first astronomer to view the Pleiades through a telescope was Galileo Galilei. He thus found that many stars in the cluster are too faint to be seen with the naked eye. In March 1610, in his treatise Sidereus Nuncius, he published his observations, including a sketch of the Pleiades showing 36 stars.
 
-![Galileo’s drawings of the Pleiades](https://i.imgur.com/fcOb3OS.png)
-\
-*Galileo’s drawings of the Pleiades*
+![Galileo’s drawings of the Pleiades](https://i.imgur.com/fcOb3OS.png)\
+*Galileo’s drawings of the Pleiades*\
+[Credits: History of Science Collections, University of Oklahoma Libraries](http://hos.ou.edu/galleries/17thCentury/Galileo/1610/Galileo-1610-016c-r%20-%20Version%202-image/)
+{: .link-desc}
 
 In 1767, John Michell determined that the likelihood of a chance alignment of so many bright stars was just 1 in 500,000, so it surmised that the Pleiades and many other star clusters must be physically related. When studies were first made of the stars’ proper motions, it was found that they are all moving in the same direction across the sky, at the same rate, further demonstrating that they were related.
 
@@ -42,6 +45,8 @@ The Pleiades cluster is straightforward to find. It is located about 14 degrees 
 
 ## Special Characteristics
 
-![Special Characteristics](https://i.imgur.com/THHVokF.png)
+![Special Characteristics](https://i.imgur.com/THHVokF.png)\
+[Credits: StarryNight](https://cdn.mos.cms.futurecdn.net/K2VcD4t2nsPPUVojeUwHuM-970-80.jpg.webp)
+{: .link-desc}
 
 The nine brightest stars of the Pleiades are named for the Seven Sisters of Greek mythology: Sterope, Merope, Electra, Maia, Taygeta, Celaeno, and Alcyone, along with their parents Atlas and Pleione. By pointing Kepler at the Pleiades, researchers confirmed that six of the Seven Sisters — Alcyone, Atlas, Electra, Merope, Taygete and Pleione — are slowly pulsating type B stars, which change in brightness over the course of one day. The seventh star, named Maia, has a brightness that fluctuates over a more extended period of 10 days.
