@@ -8,7 +8,7 @@ type: Article
 image: https://imgur.com/oNnLoZ4.jpg
 ---
 \
-![Blazar](https://imgur.com/oNnLoZ4.jpg)
+![Blazar](https://imgur.com/oNnLoZ4.jpg)\
 *Blazar , Cosmic ray accelerator*\
 *Source: IceCube, WIPAC*
 
@@ -24,26 +24,26 @@ In Astroparticle physics, especially in research areas of neutrino producing sit
 point source at IceCube. In interactions of cosmic ray protons with the background radiation, further secondary particles like pionic photons, electron & muon neutrinos, and matter and anti-matter pairs are produced. Take note that IceCube does not differentiate between anti-neutrinos and neutrinos. After neutrino oscillations, the averaged composition of neutrino flavor observed at the detector in terms of νe: νμ: ντ is 1:1:1, instead of 1:2:0 as they are when
 produced. [^4]
 
-![IceCube Neutrino Observatory, South Pole Station](https://i.imgur.com/unRthPX.jpg)
+![IceCube Neutrino Observatory, South Pole Station](https://i.imgur.com/unRthPX.jpg)\
 *IceCube Neutrino Observatory, South Pole Station*\
 *Source: IceCube , WIPAC*
 
-![IceCube Neutrino Observatory, Inside the Ice](https://i.imgur.com/ukas1iC.jpg)
+![IceCube Neutrino Observatory, Inside the Ice](https://i.imgur.com/ukas1iC.jpg)\
 *IceCube Neutrino Observatory, Inside the Ice*\
 *Source: Sciencemag*
 
 These high energy neutrinos interact via Charged current(CC) and Neutral Current(NC) interactions to produce further secondary charged particles which travel faster than light in that medium to produce Cherenkov radiation. These secondary charged particles are observed in DOMs of IceCube in either, ’tracks’ or ’cascades’ type of event, based on type of neutrino. Based on the collected data through PMTs, one can reconstruct the energy, flavor, and direction
 of the incident neutrino.
 
-![Charged current and Neutral Current interaction](https://i.imgur.com/np7W4q5.jpg)
+![Charged current and Neutral Current interaction](https://i.imgur.com/np7W4q5.jpg)\
 *Charged current and Neutral Current interaction*\
 *Source: HEP*
 
-![Tracks and Cascades](https://i.imgur.com/3syfeW6.jpg)
+![Tracks and Cascades](https://i.imgur.com/3syfeW6.jpg)\
 *Tracks and Cascades*\
 *Source: IceCube, WIPAC*
 
-![DOM (Digital Optical Module) Source: IceCube, WIPAC](https://imgur.com/TJE0ZSD.jpg)
+![DOM (Digital Optical Module) Source: IceCube, WIPAC](https://imgur.com/TJE0ZSD.jpg)\
 *DOM (Digital Optical Module)*\
 *Source: IceCube, WIPAC*
 
@@ -59,6 +59,8 @@ energy neutrinos : [^3]
 4. Broadline emission clouds(BLR)
 
 ![Active Galactic Nuclei](https://i.imgur.com/XYVcOJY.jpg)
+[Credits: CoolWiki Caltech](https://coolwiki.ipac.caltech.edu/index.php/Studying_AGN)
+{: .link-desc}
 
 In 2017, an IceCube event, 'IC172209A', a high energy neutrino had been detected to be in containment region of BL Lac object TXS0506+056 Blazar. During the same time a rise in the flux of spectrum of gamma rays was observed from the same region, opening to a new era of multi-messenger astrophysics. Motivated by this, IceCube conducted a search in its archival data to find a high flux during the period of 110 days from Sept to Dec 2014 . [^1]
 
@@ -66,7 +68,7 @@ Usually, the environment of jetted active AGN, mainly jet power and target photo
 
 After doing the above analysis, physicists have come to the conclusion that neutrinos and bulk of gamma rays observed from the direction of TXS0506+056 cannot have been initiated by the same process and may not be from the region of AGN. Physicists hypothesize that maybe co-acceleration of electrons and protons can be expected to provide a causal connection between photon and neutrino production. It is observed that the same target photon field for an efficient neutrino production is opaque to high energy GeV gamma-ray photons. It is also observed that gamma-ray flux strictly associated with neutrino flare lies significantly below the GeV-flux detected contemporaneously to the neutrino flare in 2014. [^2]
 
-![BL Lac type Blazar, off the left shoulder of the Orion Source: Fermi-LAT](https://i.imgur.com/eIgC2g9.jpg)
+![BL Lac type Blazar, off the left shoulder of the Orion Source: Fermi-LAT](https://i.imgur.com/eIgC2g9.jpg)\
 *BL Lac type Blazar, off the left shoulder of the Orion*\
 *Source: Fermi-LAT*
 

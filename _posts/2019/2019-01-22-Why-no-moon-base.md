@@ -20,7 +20,7 @@ The year 2018 is ending, and watching this film makes one wonder: where is every
 
 The glories of the 1960s and 70s were at a high cost, and things did not always go the way most people thought they would. Even just after Neil Armstrong’s historic landing on the moon, only 52% of the US population believed the endeavor was worth it. NASA had been allocated 14% of the entire federal budget at that time to make this happen. Not only that, these projects were prime targets for populists to target. While we do not have a moon base today, it is only because the world decided to come together to accomplish things like a common International Space Station, which, many would argue, is a better thing than a national moon base.
 
-![Astronaut](https://i.imgur.com/LNaspQL.jpg)
+![Astronaut](https://i.imgur.com/LNaspQL.jpg)\
 Also, while NASA saw budget cuts and an American population that just was not that interested in science anymore, other countries like China and India are stepping up their efforts to surpass NASA’s legacy. Moreover, how can we forget this guy?
 
 ![Elon Musk](https://i.imgur.com/PiaEXPe.jpg)
@@ -41,13 +41,13 @@ You’re using it.
 
 An Apple Watch can be made to run Windows 95.
 
-![Windows95 on AppleWatch)](https://i.imgur.com/3Qs6Yez.png)
+![Windows95 on AppleWatch)](https://i.imgur.com/3Qs6Yez.png)\
 This miniaturization is accompanied by an increase in output. We have developed technologies that let us mass produce with accuracies going down to the size of a few atoms! While most people expect supercomputers to be something like
 
-![Old Computer](https://i.imgur.com/YDyaXjM.jpg)
+![Old Computer](https://i.imgur.com/YDyaXjM.jpg)\
 They have become more like
 
-![GraphicCard](https://i.imgur.com/SvAflTX.jpg)
+![GraphicCard](https://i.imgur.com/SvAflTX.jpg)\
 Your computers can do amazing things, as you can see when you play demanding games on it.  A supercomputer is designed to be better than everything else out there. But that does not mean your mobile phone can never catch up.
 
 ## WHERE IS MY C3PO?
@@ -67,7 +67,7 @@ Actual robots are pretty advanced, but as it turns out, making them human is som
 
 Well, we did.
 
-![Humanoid](https://i.imgur.com/yKetURZ.jpg)
+![Humanoid](https://i.imgur.com/yKetURZ.jpg)\
 This robot is now a citizen of Saudi Arabia. However, making robots like her is incredibly expensive, and it would be a foolish waste of resources to get a robot just to put the shoes back in the rack.
 
 ## OKAY, OKAY, SO WHAT ABOUT THE FLYING CARS? THE CLEAN FUEL?
@@ -81,9 +81,9 @@ And flying cars were never practical. It takes too much energy to get them up, a
 
 Not just video calls, a lot of things. There is a space station. There is a lot of reconnaissance of exoplanets and the solar system. Enterprising people look set to surpass the wildest imaginations of those generations: they might capture an asteroid and mine them for resources. We have ultrafast internet; a lot of diseases are mostly eradicated save for some lawless areas, and the rest might be cured by 2050 and even eradicated by the end of the century.
 
-![Movie](https://i.imgur.com/T9hfiyn.jpg)
+![Movie](https://i.imgur.com/T9hfiyn.jpg)\
 These movies (at least the well-made ones that stay in public memory after decades and therefore can be called to have a vision other than to make money) signify the aspirations of its time, and what its people expect the world to be. It is for us to make some more predictions so that someone forty years from now can read these articles, watch The Martian, and realize just how much effort humans put into rescuing Matt Damon from wherever he seems to end up.
 
-![HondaRobo](https://i.imgur.com/glLyXgM.jpg)
+![HondaRobo](https://i.imgur.com/glLyXgM.jpg)\
 Bye.
 
