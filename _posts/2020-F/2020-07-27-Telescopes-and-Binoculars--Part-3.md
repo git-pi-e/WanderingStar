@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Understanding Telescopes and Binoculars-Part3
+title:  Understanding Telescopes and Binoculars -  Part3
 author: Avdhoot Bhandare
 tags: Skywatching Telescopes Optical_aid Observations Coordinate_system
 category: Uncategorized

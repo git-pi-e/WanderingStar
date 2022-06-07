@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Bhuvan S V
-tags: Astrophysics Author:Bhuvan-S-V Physics RP-Feyman Science
+tags: Astrophysics Physics RP_Feyman Science
 category: Science
 type: Blog
 image: "assets/posts/2020/RPF2020.jpeg"
@@ -19,9 +19,9 @@ Richard Feynman is one of the most famous physicists of the 20th century, changi
 
 Consider a free charged particle accelerating in space. As any accelerated charge would, this particle would emit radiation, thereby losing energy (law of conservation of energy). This loss of energy is simply explained in case of a charged particle in a potential field; say an electron in an atom- the potential of the positively charged nucleus would do the work necessary to decrease the energy of the electron. But for a free charge, there is no such potential to do the needed work.
 
-![Imgur](https://i.imgur.com/1gNnE1cm.png)  
+![Imgur](https://i.imgur.com/1gNnE1cm.png)
 
-The then accepted explanation was that the charged particle would act on itself- the work is done due to “self-energy”. Feynman wished to remove this self-energy, by introducing another charge particle, which would act on the radiating particle. This can be possible when one sees that Maxwell’s equations allow for two solutions- one with positive time and other with negative time. The mechanism is as follows: the radiation from particle 1 would cause particle 2 to emit radiation back to particle 1, thereby affecting it. This seemingly violates principle of causality, but when you consider a large number of particles and both solutions of Maxwell’s equations, this is seen to actually obey it. Feynman calls this theory, which he developed along with his advisor John Archibald Wheeler, the theory of action at a distance (now called Wheeler-Feynman absorber theory). The main principles of this theory are as follows:  
+The then accepted explanation was that the charged particle would act on itself- the work is done due to “self-energy”. Feynman wished to remove this self-energy, by introducing another charge particle, which would act on the radiating particle. This can be possible when one sees that Maxwell’s equations allow for two solutions- one with positive time and other with negative time. The mechanism is as follows: the radiation from particle 1 would cause particle 2 to emit radiation back to particle 1, thereby affecting it. This seemingly violates principle of causality, but when you consider a large number of particles and both solutions of Maxwell’s equations, this is seen to actually obey it. Feynman calls this theory, which he developed along with his advisor John Archibald Wheeler, the theory of action at a distance (now called Wheeler-Feynman absorber theory). The main principles of this theory are as follows:
 
 1. Acceleration of a charged particle is due to its sum interactions with other charged particles, or, there is no “self-energy”. This also means that a free particle alone cannot spontaneously emit radiation.
 
