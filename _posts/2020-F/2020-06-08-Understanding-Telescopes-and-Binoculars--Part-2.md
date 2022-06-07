@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  Understanding Telescopes and Binoculars-Part2
+title:  Understanding Telescopes and Binoculars - Part2
 author: Avdhoot Bhandare
 tags: Skywatching Telescopes Optical_aid
 category: Uncategorized
 type: Article
 image: assets/posts/2020/tremendous telescopes.jpeg
 ---
-![poster of Trem.Telescopes](../assets/posts/2020/tremendous telescopes.jpeg)
+
+![Poster: Tremendous Telescopes](../assets/posts/2020/tremendous telescopes.jpeg)
 
 ## Part 2: Tremendous Telescopes
-
 
 So, I’m assuming you’ve read the first article of this series, and are now the proud owner of your very own pair of shiny, cool binoculars! Great! But if you’re anything like me, you want the real stuff (wink). The stuff that will get you as high up as the stars themselves, so close that you can reach out and touch them (and get vaporized into a gazillion particles too, but I try not to think that far ahead). I’m talking, of course, about telescopes!
 
