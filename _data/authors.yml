@@ -29,14 +29,17 @@ Abdul Jawad Khan:
 Aeishna Khaund:
   nick        : aeiou
   name        : Aeishna Khaund
+  bio         : "Curiosity kissed the cat"
 
 Nikhil Bisht:
   nick        : AstroDnerd
   name        : Nikhil Bisht
+  bio         : "Beep beep I'm a sheep"
 
 Kaustubh Murudkar:
   nick        : Cos³
   name        : Kaustubh Murudkar
+  bio         : 4Head, SEDS Celestia
 
 Neil Shah:
   nick        : Neil
@@ -50,6 +53,7 @@ Paurush Punyasheel:
   nick        : Paurush
   name        : Paurush Punyasheel
   avatar      : "https://pbs.twimg.com/profile_images/1241100252976824320/Y5AmSOfT_400x400.jpg"
+  bio         : President, SEDS Celestia
 
 Avdhoot Bhandare:
   nick        : Avdhoot
@@ -58,7 +62,7 @@ Avdhoot Bhandare:
 
 Sanika Chepe:
   nick        : Sanika
-  name        : Sanika Chepe 
+  name        : Sanika Chepe
 
 Hareesh Nair:
   nick        : Hareesh
@@ -69,7 +73,7 @@ Afraj Shaikh:
   name        : Afraj Shaikh
 
 Gayatri:
-  nick        : Gayatri
+  nick        : G
   name        : Gayatri Patankar
 
 Gaurav Iyer:
@@ -88,7 +92,16 @@ Hrutwick Sawant and Aditya K Nair:
 Hrutwick Sawant:
   nick        : H_Solo
   name        : Hrutwick Sawant
+  alt         : Ex-President, SEDS Celestia
 
 Mudit Jain:
   nick        : Mudit
   name        : Mudit Jain
+
+Piyush Mohite:
+  nick        : Pi
+  name        : Piyush Mohite
+
+Shlok Kakkar:
+  nick        : Schlok
+  name        : Shlok Kakkar

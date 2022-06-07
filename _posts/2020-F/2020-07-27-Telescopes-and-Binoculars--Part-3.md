@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Understanding Telescopes and Binoculars-Part3
-author: Avdhoot Bhandare, ex-Observations Head, SEDS Celestia
+title:  Understanding Telescopes and Binoculars -  Part3
+author: Avdhoot Bhandare
 tags: Skywatching Telescopes Optical_aid Observations Coordinate_system
 category: Uncategorized
 type: Article
