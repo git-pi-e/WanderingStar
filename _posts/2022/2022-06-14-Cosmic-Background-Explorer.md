@@ -84,4 +84,4 @@ Image credit: [NASA Scientist Shares Nobel Prize for Physics](https://www.nasa.g
 
 **Header Image Credits:** [NASA](https://science.nasa.gov/missions/cobe)
 
-Special credits for content: Shreeyash Gowaikar
+Special credits for content: **Shreeyash Gowaikar**
