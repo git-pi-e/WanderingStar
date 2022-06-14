@@ -82,3 +82,5 @@ Image credit: [NASA Scientist Shares Nobel Prize for Physics](https://www.nasa.g
 4. [COBE Slide Set - Cosmic Background Explorer](https://lambda.gsfc.nasa.gov/product/cobe/slide_captions.html)
 
 **Header Image Credits:** [NASA](https://science.nasa.gov/missions/cobe)
+
+Special credits for content: Shreeyash Gowaikar
