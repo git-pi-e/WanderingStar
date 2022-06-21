@@ -6,9 +6,9 @@ category: Telescopes
 type: Article
 image: https://i.imgur.com/PAYzfxo.png
 ---
-![Celestia Poster](https://i.imgur.com/qMDFgVI.png)\
-
 Try and think of the most beautiful and detailed image you've seen of galaxies or any deep space object for that matter, there's a good chance that the picture was taken by the Hubble space telescope. The Hubble space telescope has given what is arguably some of the most important contributions to our study of the universe.
+
+![Celestia Poster](https://i.imgur.com/qMDFgVI.png)
 
 Space telescopes have two main advantages over ground-based telescopes. First, the resolutions at which scientists could observe would increase significantly as there would be no disturbance due to the turbulence caused by the atmosphere. Second, the telescope could observe infrared and ultraviolet rays ( most of these rays are usually absorbed by the atmosphere).
 While ideas for space telescopes existed from as early as 1945, they did not gain any support until the The National Academy of Sciences published a report entitled “Scientific Uses of the Large Space Telescope.” It took 8 whole years for the project to gain momentum until it finally got congress approval and funding in 1977. The image shows the main structure of the Hubble space telescope as it is currently. Given its length, one of the main challenges of launching the Hubble space telescope was to make sure that it would stay stable, and this was solved using 6 of the most sensitively tuned gyroscopes.
@@ -55,8 +55,19 @@ DISTANT GALAXY GN-Z11 IN GOODS NORTH SURVEY
 Another very interesting Hubble image is the Hubble Deep Field. In 1995, the Hubble pointed at a small, seemingly empty area in Ursa Major, where there was thought to be nothing. Hubble pointed at this tiny area which was only about 2.6 arcminutes, which is about one- 24 millionth of the entire sky for almost a month, this was pretty controversial at the time- to spend precious Hubble time looking at an empty patch? And again, Hubble did not disappoint, the image it produced was spectacular in all ways. This image of a tiny point in a tiny patch in the sky where there seemed to be nothing was covered in galaxies. Every point on the image is a galaxy. We now know that we are surrounded by galaxies in hundreds of billions all around us, in every direction.
 A few years later, Hubble observed a much deeper field from September 2003 to January 2004, near the constellation Fornax which is in the south hemisphere, south-west of orion. This picture- Hubble Ultra Deep Field(HUDF) was the most sensitive picture taken until the XDF(eXtreme Deep Field) which was released in 2014
 
-UDF                                                                  HUDF
-XDF
+![Full WFPC2 Mosaic - Full Resolution
+](https://i.imgur.com/dxzxs3O.jpg)
+*Full WFPC2 Mosaic - Full Resolution*\
+*Credit: R. Williams ([STScI](http://www.stsci.edu/)), the Hubble Deep Field Team and NASA/ESA*
+
+![Hubble sees galaxies galore](https://i.imgur.com/v26nybF.jpg)\
+*Hubble sees galaxies galore*
+*Credit: NASA, ESA, and S. Beckwith ([STScI](http://www.stsci.edu/)) and the HUDF Team*
+
+
+![XDF](https://i.imgur.com/qw3fj1p.png)\
+*XDF*
+
 
 Other than the aforementioned, the Hubble has been behind several other achievements as well. The images provided by Hubble have helped establish the theory that there are blackholes at the center of most galaxies. It has also discovered quite a few solar systems (1st exoplanet was discovered by Hubble in 2008).
 Hubble has made incredible contributions to Astronomy, with over 15,000 papers based on its data have been published in peer-reviewed journals. While almost 1/3rd of all papers in astronomy go uncited (after many years of publication), 98% of all papers based on Hubble data have citations.

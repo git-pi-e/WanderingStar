@@ -7,10 +7,11 @@ category: Telescopes
 type: Article
 image: https://i.imgur.com/bKFjDsl.png
 ---
+*Somewhere, something incredible is waiting to be known.*
+
 ![The Poster](https://i.imgur.com/ANAiIXkh.png)
 
-*Somewhere, something incredible is waiting to be known*
----
+
 Space exploration has sparked widespread human curiosity ever since its origins. We have used a variety of means to achieve the knowledge that we seek about celestial bodies that surround us. One such means was a satellite called the Cosmic Background Explorer (COBE) or Explorer 66. It was operated by NASA between 1989 and 1993 with the objective of investigating Cosmic Microwave Background (CMB) radiation of the universe and detecting patterns that could help us expand our understanding of the cosmos.
 
 ![An all-sky image of CMB](https://i.imgur.com/vicVRS0h.png)\
