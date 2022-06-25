@@ -23,7 +23,7 @@ There is another stark fact related to the space debris, which is that it grows 
 If humans are to dive into space exploration further, finding a  solution to remove space debris is imperative. It cannot be disregarded.
 Even though space agencies across the globe are racing against time to remove space debris, there is no sustainable and implementable solution in sight yet.  Some of the methods which have been proposed are:
 
-1) Snagging and Moving Space Junk-
+**1) Snagging and Moving Space Junk:**
 This method involves capture mechanisms like robotic arms, tentacles, nets, harpoons   etc. Deorbit was a planned European Space Agency active space debris removal mission developed as a part of their Clean Space initiative. The launch was expected to  take place in 2025.
 But now the ESA has stopped funding to this project and have started funding  ClearSpace-One. This mission has also inculcated the capture mechanism inspired by animals.
 
