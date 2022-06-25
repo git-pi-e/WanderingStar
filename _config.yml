@@ -5,14 +5,14 @@ title: "SEDS Celestia Blog"
 description: "A Space blog written and maintained by SEDS Celestia"
 logo: 'assets/images/logoWide.png'
 favicon: 'favicon.png'
-baseurl:
+baseurl: 'https://blog.sedscelestia.org/'
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
-defualts:
+defaults:
   author:
-    avatar: https://pbs.twimg.com/profile_images/1241100252976824320/Y5AmSOfT_400x400.jpg
+    avatar: 'assets/images/anon.png'
 
 # Plugins
 plugins:
