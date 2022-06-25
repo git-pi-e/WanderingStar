@@ -8,7 +8,7 @@ image: https://i.imgur.com/2vWjJEV.png
 ---
 Space debris refers to the junk or waste in space, including waste left by human beings as part of space exploration missions and naturally in the form of meteoroids. Dead satellites, the fragmentation pieces of rocket equipment, paint speckles,  unburnt particles from solid rocket motors etc., all contribute to the space debris.
 
-![Celestia Poster]()
+![Celestia Poster](https://i.imgur.com/5fhFYhZ.png)
 
 The diameter of space debris may be even smaller than 1 cm. As of January 2019, more than 128 million pieces of debris smaller than 1 cm (0.4 in), about 900,000 pieces 1–10 cm, and around 34,000 pieces larger than 10 cm (3.9 in) were estimated to be in orbit around the Earth.
 Space debris may seem to be a trivial issue, but it isn’t. Space debris affects a lot of calculations done while preparing for a space mission. Even the smallest of litter may
