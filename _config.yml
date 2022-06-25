@@ -5,7 +5,7 @@ title: "SEDS Celestia Blog"
 description: "A Space blog written and maintained by SEDS Celestia"
 logo: 'assets/images/logoWide.png'
 favicon: 'favicon.png'
-baseurl: 'https://blog.sedscelestia.org/'
+baseurl: 
 include: ["_pages"]
 permalink: /:title/
 
