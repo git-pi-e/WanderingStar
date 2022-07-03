@@ -66,7 +66,7 @@ Credits: The Guardian
 
 During the first fractions of a second of the Big Bang, the hot and dense universe was buzzing with particle-antiparticle pairs popping in and out of existence. If matter and antimatter are created and destroyed together, it seems the universe should contain nothing but leftover energy. But as mentioned above, nature favors matter over antimatter by 1 part per 10 billion, thus the whole universe is that tiny part that survived.
 
-Why?
+**Why?**
 
 To find this out read the [**Part-2 of the Antimatter Series**](/Antimatter-Part-II).
 
