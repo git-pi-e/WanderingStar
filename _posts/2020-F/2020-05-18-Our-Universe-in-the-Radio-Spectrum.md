@@ -2,7 +2,7 @@
 layout: post
 author: Abdul Jawad Khan
 category: EM_Cosmology Science
-tags: CMBR Cosmic_Microwave_Background_Radiation EHT GLEAM History M87 Radio_Spectrum Science
+tags: CMBR Cosmic-Microwave-Background-Radiation EHT GLEAM History M87 Radio_Spectrum Science
 type: blog
 image: https://i.imgur.com/FjVBbdzh.jpg
 ---
