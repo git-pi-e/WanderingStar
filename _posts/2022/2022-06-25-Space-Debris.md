@@ -28,7 +28,7 @@ This method involves capture mechanisms like robotic arms, tentacles, nets, harp
 But now the ESA has stopped funding to this project and have started funding  ClearSpace-One. This mission has also inculcated the capture mechanism inspired by animals.
 
 ![Snagging and Moving Space Junk](https://i.imgur.com/BTCnsPD.png)\
-Image Credit- [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Debris-GEO1280.jpg/1024px-Debris-GEO1280.jpg)\
+Image Credit- [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Debris-GEO1280.jpg/1024px-Debris-GEO1280.jpg)
 {:.link-desc}
 *A computer-generated image representing the  locations, but not relative sizes, of space debris as  could be seen from high Earth orbit. The two main  debris fields are the ring of objects in geosynchronous Earth orbit (GEO) and the cloud  of objects in low Earth orbit (LEO).*
 
