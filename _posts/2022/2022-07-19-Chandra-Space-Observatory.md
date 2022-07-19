@@ -31,7 +31,7 @@ Image credits - [S. Chandrasekhar | Biography, Discoveries, Nobel Prize, Accompl
 
 X-ray astronomy uses X-rays to study the high-energy parts of the universe and using X-rays often helps us study these events in much better resolution.
 
-
+![Crab Nebula](https://i.imgur.com/kuBDOVu.png)
 Image credits - [About Chandra :: Chandra Mission](https://chandra.harvard.edu/about/axaf_mission.html)
 {: .link-desc}
 
