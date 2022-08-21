@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gravitational Waves"
-author: Dhruv Parashar
+author: Srikanth C P
 tags: Science Physics Astronomy
 category: Science
 type: Article
